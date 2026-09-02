@@ -16,13 +16,13 @@ profile:
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
-# Re-enable once there is content in _news/ and _posts/ — an enabled but empty
-# section renders as a blank box on the homepage.
 announcements:
-  enabled: false
+  enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
+# Re-enable once there are posts in _posts/ — an enabled but empty section
+# renders as a blank box on the homepage.
 latest_posts:
   enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items

@@ -36,6 +36,6 @@ morphology measured by X-ray μ-CT and SEM fractography.
 
 ## Intellectual property
 
-The printhead is covered by U.S. Patent 12,496,776 B2 {% cite taylor2024fused %}, with a second
+The printhead is covered by U.S. Patent 12,496,776 B2 {% cite taylor2025fused %}, with a second
 application pending for the adaptive annealing variant {% cite shanto2026adaptive %}. The technology is
 being commercialized through [Increscent, Inc](/experience/).

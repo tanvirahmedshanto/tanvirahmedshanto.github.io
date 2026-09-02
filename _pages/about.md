@@ -25,8 +25,8 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
 Mechanical engineer, PhD. I work on additive manufacturing process innovation, with expertise spanning experimental and computational mechanics, design of experiments, material characterization, and machine learning.
 
 My doctoral work at UT Arlington produced an awarded patent and a patent-pending printhead that improves interlayer strength in polymer 3D printing. I'm also technical lead at Increscent, Inc., where a team of us is building products around it.
-
 

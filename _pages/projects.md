@@ -1,65 +1,57 @@
 ---
 layout: page
-title: projects
 permalink: /projects/
-description: Research in additive manufacturing process innovation, fracture mechanics, micromechanics modeling, and data-driven process optimization.
+title: research
+description: Journal articles, conference papers, patents, and industry work in additive manufacturing process innovation, fracture mechanics, and applied mechanical engineering.
 nav: true
 nav_order: 3
-display_categories: [research]
-horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
+My work centres on a single question: **why are extrusion-printed parts weak between layers, and what
+can be changed during printing to fix it?** Answering it has meant building hardware, running designed
+experiments, imaging what happens inside the bond, and modelling the result.
+
+<div class="row row-cols-1 row-cols-md-2 g-4 mt-2">
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h3 class="card-title"><a href="{{ '/projects/journal/' | relative_url }}">Journal Articles</a></h3>
+        <p class="card-text">
+          Peer-reviewed journal work, manuscripts under review, and research in progress — with the
+          methodology and the numbers behind each result.
+        </p>
+      </div>
     </div>
   </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
-
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h3 class="card-title"><a href="{{ '/projects/conference/' | relative_url }}">Conference Papers</a></h3>
+        <p class="card-text">
+          Peer-reviewed conference proceedings spanning SAMPE, SFF, IISE, and MARTEC.
+        </p>
+      </div>
     </div>
   </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h3 class="card-title"><a href="{{ '/projects/patents/' | relative_url }}">Patents</a></h3>
+        <p class="card-text">
+          One granted and one pending U.S. patent covering printhead-integrated in-situ annealing.
+        </p>
+      </div>
+    </div>
   </div>
-  {% endif %}
-{% endif %}
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body">
+        <h3 class="card-title"><a href="{{ '/projects/industry/' | relative_url }}">Industry Projects</a></h3>
+        <p class="card-text">
+          Process equipment, piping design, and capital project work in the petrochemical sector, plus
+          commercialization at Increscent.
+        </p>
+      </div>
+    </div>
+  </div>
 </div>

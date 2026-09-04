@@ -38,10 +38,7 @@ Doctoral research on interlayer bonding, void formation, and fracture behaviour 
 additive manufacturing, combining designed experiments, thermal and tomographic imaging, and
 finite-element modelling.
 
-{% comment %} Lab images. Drop files in assets/img/research/ and uncomment.
-{% include figure.liquid path="assets/img/research/lab-01.jpg" alt="Additive manufacturing research laboratory at UT Arlington" caption="The print and test setup used across the four dissertation studies." zoomable=true %}
-{% include figure.liquid path="assets/img/research/lab-02.jpg" alt="Printhead and thermography setup" caption="In-situ MWIR thermography during deposition." zoomable=true %}
-{% endcomment %}
+{% include figure.liquid path="assets/img/research/lab-01.jpg" alt="Additive manufacturing research laboratory at UT Arlington, with industrial and desktop FFF printers, a robotic composite deposition cell, and a printed UAV wing section" caption="The lab at UT Arlington where the dissertation work was carried out." zoomable=true %}
 
 - Integrated MWIR thermography, X-ray μ-CT, tensile/DMA/Mode-I testing, and SEM fractography to link
   interfacial thermal history, void morphology, and structural response.
@@ -66,6 +63,8 @@ finite-element modelling.
 Process equipment and piping design, CAESAR II stress analysis, and workshop operations supporting a
 $10M mooring and pipeline programme. Coordinated a 70-person workshop and maintenance crew and reduced
 oil-tanker construction and maintenance costs by roughly 10%.
+
+{% include figure.liquid path="assets/img/industry/spl-plant-night.jpg" alt="Petrochemical distillation columns lit at night" caption="The plant at night." zoomable=true %}
 
 {% include figure.liquid path="assets/img/industry/spl-drydock.jpg" alt="Barge and tanker sections under construction in a dry dock" caption="Vessel sections under construction in dry dock, where the tanker build and maintenance work was carried out." zoomable=true %}
 

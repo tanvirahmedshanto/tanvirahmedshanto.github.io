@@ -16,7 +16,7 @@ toc:
 
 **Mechanical Engineer** · [Super Petrochemical Limited](https://sppl.com.bd/) · Bangladesh · October 2018 – October 2019
 
-{% include figure.liquid path="assets/img/industry/spl-drydock.jpg" alt="Barge and tanker sections under construction in a dry dock" caption="Vessel sections under construction in dry dock." zoomable=true %}
+{% include figure.liquid path="assets/img/industry/spl-plant-night.jpg" alt="Petrochemical distillation columns lit at night" caption="The plant at night." zoomable=true %}
 
 A year in heavy industry covering process equipment design, piping stress analysis, capital project
 support, and day-to-day workshop operations — the practical counterpart to later research work, where
@@ -38,6 +38,8 @@ piping stress analysis in **CAESAR II**. Worked directly with fabrication and in
 designs were manufacturable rather than merely correct on paper.
 
 ## Oil tanker construction and maintenance cost reduction
+
+{% include figure.liquid path="assets/img/industry/spl-drydock.jpg" alt="Barge and tanker sections under construction in a dry dock" caption="Vessel sections under construction in dry dock." zoomable=true %}
 
 Identified process waste and bottlenecks, improved planning and vendor coordination, and implemented
 continuous improvement measures — **reducing oil tanker construction and maintenance costs by roughly

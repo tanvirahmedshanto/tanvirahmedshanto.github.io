@@ -47,18 +47,12 @@ annealing is during batch printing.
 Patel, P., Rahman, M. M., **Shanto, T. A.**, Ahmed, R., Kulkarni, P., Chen, V. C. P., Jain, A., & Taylor, R. M.
 _Progress in Additive Manufacturing_ (2026).
 
-**Methodology.** A design of experiments study using a novel heater block design evaluated heater block
-alignment and temperature alongside print speed and material conditioning, measuring their statistical
-effect on flexural strength and geometric accuracy of a double-bead, tall thin-walled PLA structure.
+A design of experiments study on a novel heater block design, relating alignment, temperature, print
+speed, and material conditioning to the flexural strength and geometric accuracy of tall thin-walled
+PLA. The best condition reached 51.10 MPa bending strength, a 25% gain, with deformation held within
+±2 mm.
 
-**Findings.** The studied parameters significantly affected bending strength while average deformation in
-height, width, and length stayed within ±2 mm. The highest model-predicted bending strength of
-**51.10 MPa — a 25.0% increase** over the 41 MPa standard specimen — was achieved with an aligned heater
-block at 245 °C using dried filament printed at 1200 mm/min. Gains were attributed to improved
-layer-to-layer bonding, a change in void shape from sharp-edged to circular, and more effective neck
-growth between rasters, all without sacrificing geometric accuracy.
-
-**Status.** Published — [DOI: 10.1007/s40964-026-01852-z](https://doi.org/10.1007/s40964-026-01852-z)
+[DOI: 10.1007/s40964-026-01852-z](https://doi.org/10.1007/s40964-026-01852-z)
 
 ---
 
@@ -67,17 +61,11 @@ growth between rasters, all without sacrificing geometric accuracy.
 Patel, P., Ahmed, R., **Shanto, T. A.**, Jain, A., & Taylor, R. M.
 _The International Journal of Advanced Manufacturing Technology_, **139**(11–12), 5663–5675 (2025).
 
-**Methodology.** Additional thermal energy was supplied during printing to improve layer-to-layer bonding
-in structures much taller than standard tensile specimens. PLA parts were characterised by 3-point bend
-testing, with geometric deviation, surface roughness, and interlayer bonding potential also evaluated
-across both single-bead and multi-bead wall configurations.
+In-situ thermal energy applied while printing tall thin-walled PLA structures, assessed by three-point
+bending alongside geometric deviation, surface roughness, and bonding potential. Bending strength more
+than doubled while geometric accuracy and surface finish were maintained or improved.
 
-**Findings.** In-situ thermal energy **more than doubled bending strength** and substantially increased
-bonding potential, while maintaining or exceeding the geometric accuracy and surface finish of standard
-specimens — demonstrating that tall thin-walled components can be printed to practical strength
-requirements without a geometry penalty.
-
-**Status.** Published — [DOI: 10.1007/s00170-025-16171-w](https://doi.org/10.1007/s00170-025-16171-w)
+[DOI: 10.1007/s00170-025-16171-w](https://doi.org/10.1007/s00170-025-16171-w)
 
 ---
 
@@ -86,16 +74,11 @@ requirements without a geometry penalty.
 Ahmed, R., Dola, I. S., Ahmed, S., Rahman, M. M., **Shanto, T. A.**, & Taylor, R. M.
 _The International Journal of Advanced Manufacturing Technology_ (2026).
 
-**Methodology.** A critical review linking design strategies, optimization techniques, and manufacturing
-challenges across the FFF design-to-fabrication workflow — covering Design for Additive Manufacturing
-(DfAM) concepts and Topology Optimization adapted specifically for thin-walled and lattice structures,
-together with the limitations of conventional CAD tooling.
+A critical review linking design strategies, Design for Additive Manufacturing, and topology
+optimization to the manufacturing constraints of thin-walled and lattice FFF structures, closing on
+AI-driven process control and digital twins as the next directions.
 
-**Findings.** The review consolidates multidisciplinary evidence into an integrated view of how
-structurally efficient FFF components are produced, and identifies future directions including
-artificial-intelligence-driven process control and digital twins for predictive modelling.
-
-**Status.** Published — [DOI: 10.1007/s00170-026-18078-6](https://doi.org/10.1007/s00170-026-18078-6)
+[DOI: 10.1007/s00170-026-18078-6](https://doi.org/10.1007/s00170-026-18078-6)
 
 ---
 
@@ -104,17 +87,11 @@ artificial-intelligence-driven process control and digital twins for predictive 
 Uddin, M. M., Akhtaruzzaman, R., **Shanto, T. A.**, & Hasan, M. N.
 _European Journal of Engineering and Technology Research_, **8**(3), 38–42 (2023).
 
-**Methodology.** A numerical CFD study of a dynamic wall heat exchanger, in which one channel wall is
-deliberately deformed to create a peristaltic effect that drives flow and disrupts boundary layers.
-Amplitude of vibration, frequency, minimum wall gap, and applied pressure difference were varied, and
-their effect on coolant mass flow rate and heat transfer coefficient measured.
+A numerical CFD study of a heat exchanger whose channel wall is deliberately deformed to create a
+peristaltic effect, disrupting boundary layers without high pumping pressure. Substantial heat transfer
+was achieved even at minimal applied pressure.
 
-**Findings.** Isotherm and streamline distributions were well developed, with heat transfer becoming
-significant at high relative amplitude. Notably, the dynamic wall generated **substantial heat transfer
-even under minimal externally applied pressure** — the central advantage over conventional
-small-channel exchangers, which require high pumping pressure.
-
-**Status.** Published — [DOI: 10.24018/ejeng.2023.8.3.3043](https://doi.org/10.24018/ejeng.2023.8.3.3043)
+[DOI: 10.24018/ejeng.2023.8.3.3043](https://doi.org/10.24018/ejeng.2023.8.3.3043)
 
 ---
 
@@ -124,23 +101,12 @@ small-channel exchangers, which require high pumping pressure.
 
 Ahmed, R., **Shanto, T. A.**, Raiyan, A. Z., Ahmed, S., Barua, S., Chen, V. C. P., Jain, A., Adnan, A., & Taylor, R. M.
 
-**Methodology.** A patented integrated heating block — the enhanced printhead — was evaluated under
-continuous deposition and under deposition with an introduced interlayer cooling pause, both compared
-against a standard printhead using z-directionally printed PLA tensile specimens. A full-factorial design
-of experiments examined printhead configuration and bead overlap (controlled through surface offset).
-In-situ mid-wave infrared thermography linked interfacial thermal history to mechanical performance,
-while X-ray micro-CT and SEM correlated void morphology and fracture behaviour to strength.
+The enhanced printhead evaluated with and without a programmed interlayer cooling pause against a
+standard printhead, on z-printed PLA. Cooling at 0.46 mm offset reached 53.4 MPa, about 86% of bulk PLA,
+at 0.885% porosity, by cycling the weld between the glass transition and cold-crystallization
+temperatures to sustain chain mobility without letting crystallization arrest healing.
 
-**Findings.** Printhead configuration dominated tensile strength, with a significant printhead–offset
-interaction. The enhanced printhead with cooling at 0.46 mm offset produced the highest mean strength of
-**53.4 ± 2.7 MPa (~86% of bulk PLA)**, with the best specimen reaching **56.8 MPa (~92% of bulk)** at the
-lowest porosity of 0.885% and ductile, well-welded fracture surfaces. Thermography explained the
-mechanism: the standard printhead stayed mostly below the glass transition temperature, limiting chain
-diffusion; continuous enhanced printing held the interface above the cold-crystallization onset,
-promoting crystallization that arrests healing; controlled cooling cycled the weld region between those
-two temperatures, sustaining chain mobility while interrupting crystallization.
-
-**Status.** Under review.
+Under review.
 
 ---
 
@@ -149,38 +115,86 @@ two temperatures, sustaining chain mobility while interrupting crystallization.
 **Shanto, T. A.**, Rahman, M. M., Barua, S., Ahmed, S., Raiyan, A. Z., Ahmed, R., Jain, A., Adnan, A., & Taylor, R. M.
 
 **Methodology.** A process–structure–property investigation of in-situ annealing applied to vertically
-printed short-carbon-fiber ABS, relating bonding potential and void content to z-direction mechanical
-performance.
+printed short-carbon-fiber ABS. An annealing plate re-heats each deposited layer, sustaining time above
+the glass transition temperature and raising bonding potential. X-ray μ-CT quantified internal void
+content across tensile, fracture, and DMA specimen geometries, and SEM fractography identified the
+failure mode.
 
-**Findings.** In-situ annealing produced **39% higher ultimate tensile strength**, **30% higher elastic
-modulus**, **63% higher glassy storage modulus**, and roughly **92% higher Mode-I fracture resistance**,
-with crack-path void content reduced from approximately 4.0% to 0.7% and a shift from interfacial toward
-cohesive fracture.
+{% include figure.liquid path="assets/img/research/compb-fig1.jpg" alt="Three-panel process-structure-property summary: in-situ thermal annealing schematic, micro-CT void content for standard versus modified specimens, and z-direction property gains with SEM fracture surfaces" caption="Process, structure, and property: the annealing plate raises bonding potential, μ-CT shows the voids closing, and z-direction performance rises as fracture turns cohesive." zoomable=true %}
+
+**Findings.** Void content fell across every geometry measured — **4.00% to 0.70%** in tensile specimens,
+1.49% to 0.60% in fracture specimens, and 5.612% to 3.592% in DMA specimens. The mechanical consequence
+in the z-direction was **tensile strength 16.5 → 22.9 MPa (+39%)**, **glassy storage modulus
+0.75 → 1.23 GPa (+63%)**, and **Mode-I fracture toughness 1.20 → 2.29 MPa√m (+92%)**, alongside a 30%
+gain in elastic modulus. SEM showed the failure mode shifting from **interfacial to cohesive**: fiber
+pull-out, debonding, and matrix tearing absorb the additional energy rather than the weld line simply
+letting go.
 
 **Status.** Submitted to _Composites Part B: Engineering_.
 
 ---
 
-## Adaptive annealing in extrusion-based additive manufacturing and machine-learning-based prediction of mechanical performance
+## Controlling interlayer bond strength in fused filament fabrication through adaptive in-situ annealing
 
 **Shanto, T. A.**, Ahmed, R., Patel, P., Barua, S., Dola, I. S., Chen, V., Jain, A., & Taylor, R. M.
 
-**Methodology.** Combines the adaptive annealing printhead with supervised machine-learning models that
-predict mechanical performance from process parameters and thermal features.
+**Methodology.** A coaxial heated plate positioned behind the nozzle gives **independent control of
+annealing plate temperature (APT) and annealing plate height (APH)** — the step beyond a fixed thermal
+setting. Infrared thermography captured interfacial thermal history during vertical printing, tracking
+welding time against a glass transition of 104.59 °C. X-ray μ-CT quantified void fraction, SEM examined
+fracture surfaces, and tensile and DMA coupons measured the mechanical response. A thin-walled UAV
+box-beam served as the structural case study.
 
-**Status.** Manuscript under internal review.
+{% include figure.liquid path="assets/img/research/addmanu-fig1.jpg" alt="Three-panel summary: process control with the coaxial heated plate and thermography, microstructural mechanism showing bonding potential and void reduction, and property improvement with stress-strain curves and SEM fracture surfaces" caption="Independent control of plate temperature and height raises bonding potential 3.8-fold, cuts void fraction roughly threefold, and shifts fracture from adhesive to cohesive." zoomable=true %}
+
+{% include figure.liquid path="assets/img/research/addmanu-fig2.jpg" alt="Experimental setup with FLIR camera and vertically printed specimen, welding time tracking thermograms, and dimensioned drawings of the box beam, DMA coupon and tensile coupon" caption="Experimental setup, welding-time tracking, and the box-beam and coupon geometries. Dimensions in millimetres." zoomable=true %}
+
+**Findings.** Adaptive control raised bonding potential **3.8×, from 756.04 to 2855.88 °C·s**, and cut
+void fraction roughly threefold, from **0.658% to 0.206%**. Annealed coupons sustained higher stresses
+across the full strain range, giving **modulus +65%**, **ultimate tensile strength +39%**, and
+**toughness +58%**. Fracture shifted from interface-controlled adhesive failure to cohesive,
+bulk-controlled failure. The thin-wall case study gained **55% in flexural strength** with improved
+cross-sectional accuracy, at a modest cost in build height.
+
+**Status.** Under review at _Additive Manufacturing_.
 
 ---
 
 # Ongoing
 
-## Characterizing and improving fracture behavior in 3D-printed polymers using DCB and SENB fracture testing
+## Experimental and multiscale numerical investigation of interlayer fracture in standard and in-situ-annealed FFF structures
 
 **Shanto, T. A.**, Ahmed, S., Labanya, F. N., Lin, S., & Taylor, R. M.
 
-Mode-I fracture characterisation using ASTM D5528 double cantilever beam and ASTM D5045 single-edge
-notched bend testing, with synchronised crack tracking, used to calibrate and validate cohesive-zone
-models of anisotropic printed material.
+**Methodology.** Two Mode-I fracture geometries are studied experimentally and numerically in parallel:
+**single-edge-notched bend (SENB)** coupons, 100 × 20 mm with a machined initial crack, for
+fracture toughness, and **double-cantilever-beam (DCB)** coupons, 145 × 20 × 10 mm, for interlayer
+fracture energy. A preliminary study across standard and in-situ-annealed specimens set the coupon
+thickness.
+
+{% include figure.liquid path="assets/img/research/fracture-fig1.jpg" alt="SENB and DCB test configurations shown alongside their corresponding finite element meshes" caption="Both fracture geometries are studied experimentally and numerically: SENB for fracture toughness, DCB for interlayer fracture energy." zoomable=true %}
+
+{% include figure.liquid path="assets/img/research/fracture-fig2.jpg" alt="Preliminary thickness study specimens, dimensioned DCB and SENB coupons, and the fracture toughness test setups" caption="Preliminary thickness study, coupon geometries, and the fracture toughness test setups." zoomable=true %}
+
+On the numerical side, a **representative volume element** supplies homogenised solid properties, and
+cohesive surfaces carry the interlayer damage. DCB and SENB finite element models are then calibrated
+against the measured load–displacement records.
+
+{% include figure.liquid path="assets/img/research/fracture-fig3.jpg" alt="Cohesive surface and solid material models, representative volume element, DCB and SENB finite element models, and a table of calibrated cohesive-zone parameters for standard and in-situ-annealed material" caption="Calibrated cohesive-zone parameters for standard and in-situ-annealed material, alongside the RVE and the DCB and SENB models they feed." zoomable=true %}
+
+**Findings so far.** Calibration separates two effects that a single toughness number would conflate.
+The annealed material is stiffer — **elastic modulus 1045 → 1485 MPa** — and absorbs far more energy
+before the crack runs, with **Mode-I fracture energy 3.63 → 6.45 N/mm**. Yet its **normal cohesive
+strength falls, 36.19 → 29.44 MPa**: the interface does not simply become stronger, it becomes more
+willing to deform before releasing. That trade is what produces the measured gains of **84.3%** in DCB
+conditional upper resistance and **96.2%** in SENB total work while arm stiffness stays unchanged,
+confirming the treatment acts on the interlayer damage process rather than on bulk elasticity.
+
+A practical consequence worth stating plainly: most annealed specimens failed the linearity requirement
+that every standard specimen satisfied. Improved damage tolerance and reduced linear-elastic testability
+arrive together.
+
+**Status.** Ongoing.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /projects/journal/
+permalink: /research/journal/
 title: journal articles
 description: Peer-reviewed journal articles, manuscripts under review, and research in progress.
 nav: false
@@ -8,7 +8,7 @@ toc:
   sidebar: left
 ---
 
-[← Back to research overview]({{ '/projects/' | relative_url }})
+[← Back to research overview]({{ '/research/' | relative_url }})
 
 ---
 
@@ -19,9 +19,7 @@ toc:
 **Shanto, T. A.**, Ahmed, R., Patel, P., Zulqernine, M. J., Chen, V., Jain, A., & Taylor, R. M.
 _Journal of Manufacturing Processes_, **170**, 303–318 (2026).
 
-{% comment %} Add a figure: e.g. thermography frame or μ-CT void reconstruction
-{% include figure.liquid path="assets/img/research/jmp-thermography.jpg" alt="MWIR thermograph of the bond line during deposition" caption="In-situ MWIR thermography of the interfacial weld region." zoomable=true %}
-{% endcomment %}
+{% include figure.liquid path="assets/img/research/jmp-fig1.jpg" alt="Experimental setup and thermography for the in-situ annealing study: FLIR IR camera acquiring the gage length section, sample spacing on the build plate, thermal images comparing conventional and modified printheads, and the tensile test" caption="Thermography acquisition, sample spacing, conventional versus modified printhead thermal fields, and the three-way fixed effects model used to separate the factors." zoomable=true %}
 
 **Methodology.** A full-factorial design of experiments examined printhead type, print speed, and
 inter-sample spacing, with modulus of toughness (strain energy) as the primary response. Real-time
@@ -29,11 +27,16 @@ infrared thermography quantified interfacial thermal history, including welding 
 transition temperature. X-ray micro-computed tomography and optical microscopy related internal
 porosity and fracture behaviour to the measured toughness, and effects were separated by ANOVA.
 
-**Findings.** Under low speed and close spacing the in-situ annealing printhead drove markedly enhanced
-interfacial healing: **up to 68% higher toughness**, an **83× increase in bonding potential**, and a
-**9% reduction in void volume**. ANOVA identified a significant printhead–speed interaction and a main
+**Findings.** The best condition — annealing printhead at 1200 mm/min with 7.5 mm spacing — held the
+interface above the glass transition for **16.4 s**, raising bonding potential to **387.31 °C·s, roughly
+83× the conventional printhead**. That longer welding window cut void fraction from **14.55% to 5.52%**
+and shifted fracture from smooth, interface-dominated separation to cohesive tearing and fibrillation.
+Mechanically it produced **+68% z-direction toughness** (53.41 → 90.04 MPa), **+65% maximum stress**, and
+**+59% elongation at break**. ANOVA identified a significant printhead–speed interaction and a main
 effect of spacing, showing that both deposition kinematics and part layout govern how effective
 annealing is during batch printing.
+
+{% include figure.liquid path="assets/img/research/jmp-fig2.jpg" alt="Graphical abstract in four panels: process window, thermal mechanism, structure and failure, and mechanical response" caption="From process window to mechanical response: the factorial design, the thermal mechanism, the resulting void and fracture structure, and the measured gains." zoomable=true %}
 
 **Status.** Published — [DOI: 10.1016/j.jmapro.2026.05.005](https://doi.org/10.1016/j.jmapro.2026.05.005)
 

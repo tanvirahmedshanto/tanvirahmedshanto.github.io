@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /projects/dissertation/
+permalink: /research/dissertation/
 title: doctoral dissertation
 description: Improving Strength and Fracture Resistance in Fused Filament Fabrication Through Printhead-Integrated In-Situ Annealing — Ph.D., The University of Texas at Arlington, 2026.
 nav: false
@@ -8,7 +8,7 @@ toc:
   sidebar: left
 ---
 
-[← Back to research overview]({{ '/projects/' | relative_url }})
+[← Back to research overview]({{ '/research/' | relative_url }})
 
 ---
 
@@ -19,9 +19,7 @@ Advisor: **Dr. Robert M. Taylor** · Defended 14 August 2026
 
 [View in the UTA MavMatrix repository](https://mavmatrix.uta.edu/mechaerospace_dissertations2/8)
 
-{% comment %} Hero image: printhead, print in progress, or a fracture surface
-{% include figure.liquid path="assets/img/research/dissertation-hero.jpg" alt="In-situ annealing printhead during deposition" caption="The printhead-integrated in-situ annealing system during deposition." zoomable=true %}
-{% endcomment %}
+{% include figure.liquid path="assets/img/research/diss-fig1.jpg" alt="Dissertation title slide showing the in-situ annealing printhead assembly" caption="Improving Strength and Fracture Resistance in Fused Filament Fabrication Through Printhead-Integrated In-Situ Annealing." zoomable=true %}
 
 ---
 
@@ -69,13 +67,15 @@ comparisons.
 
 ### Characterisation
 
-{% comment %} {% include figure.liquid path="assets/img/research/dissertation-microct.jpg" alt="μ-CT reconstruction of internal voids" caption="X-ray μ-CT reconstruction showing void distribution along the crack path." zoomable=true %} {% endcomment %}
-
 - **MWIR thermography** — interfacial thermal history, including welding time above the glass transition
   temperature, measured in situ during deposition
 - **X-ray μ-CT** — void morphology and volume fraction inside the bond region
 - **SEM fractography** — whether failure ran along interfaces or through the polymer itself
 - **DMA, tensile, and Mode-I fracture testing** — ASTM D5528 (DCB) and ASTM D5045 (SENB)
+
+{% include figure.liquid path="assets/img/research/diss-fig2.jpg" alt="Mechanical characterisation equipment: dynamic mechanical analyser, tensile test, two three-point bend configurations, and a Mode-I fracture toughness test" caption="Mechanical characterisation: DMA, tensile, three-point bending, and Mode-I fracture testing." zoomable=true %}
+
+{% include figure.liquid path="assets/img/research/diss-fig3.jpg" alt="Material characterisation equipment: Bruker SkyScan 1273 micro-CT, scanning electron microscope, FLIR in-situ thermal monitoring, and a FARO arm scanner" caption="Material characterisation: μ-CT for void morphology, SEM for fracture surfaces, FLIR thermography for in-situ thermal history, and FARO arm scanning for geometry." zoomable=true %}
 
 ### Modelling
 
@@ -123,8 +123,8 @@ deliver.
 | Patents | 1 granted (US 12,496,776 B2), 1 pending (19/660,770) |
 | Journal articles | 5 published, 3 under review |
 | Conference papers | 9 peer-reviewed |
-| Commercialization | [Increscent, Inc.]({{ '/projects/industry/' | relative_url }}), $50,000 NSF I-Corps Team award |
+| Commercialization | [Increscent, Inc.]({{ '/research/industry/' | relative_url }}), $50,000 NSF I-Corps Team award |
 
-Related work by category: [journal articles]({{ '/projects/journal/' | relative_url }}) ·
-[conference papers]({{ '/projects/conference/' | relative_url }}) ·
-[patents]({{ '/projects/patents/' | relative_url }})
+Related work by category: [journal articles]({{ '/research/journal/' | relative_url }}) ·
+[conference papers]({{ '/research/conference/' | relative_url }}) ·
+[patents]({{ '/research/patents/' | relative_url }})

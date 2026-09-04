@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /projects/industry/
+permalink: /research/industry/
 title: industry projects
 description: Process equipment design, piping stress analysis, and capital project work in the petrochemical sector, plus technology commercialization at Increscent, Inc.
 nav: false
@@ -8,7 +8,7 @@ toc:
   sidebar: left
 ---
 
-[← Back to research overview]({{ '/projects/' | relative_url }})
+[← Back to research overview]({{ '/research/' | relative_url }})
 
 ---
 
@@ -58,7 +58,7 @@ root cause analysis, DMAIC, SPC, Kaizen, 5-Whys, 5S, and 8D — to keep operatio
 **Co-Founder and Technical Lead** · [Increscent, Inc.](https://www.increscent3d.com/) · Texas, USA · August 2022 – Present
 
 Commercializing the university-developed in-situ annealing printing method covered by
-[U.S. Patent 12,496,776 B2]({{ '/projects/patents/' | relative_url }}).
+[U.S. Patent 12,496,776 B2]({{ '/research/patents/' | relative_url }}).
 
 ## Commercialization roadmap
 

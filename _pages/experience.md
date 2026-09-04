@@ -26,7 +26,7 @@ Commercializing the university-developed in-situ annealing printing method cover
 **$50,000 NSF I-Corps Team award** and two SBIR Phase I applications, and ran the customer discovery that
 turned laboratory results into product requirements.
 
-→ [Full detail on the industry projects page]({{ '/projects/industry/' | relative_url }})
+→ [Full detail on the industry projects page]({{ '/research/industry/' | relative_url }})
 
 ---
 
@@ -51,8 +51,8 @@ finite-element modelling.
 - Designed and prototyped the adaptive in-situ annealing printheads behind one issued and one pending
   U.S. patent.
 
-→ [The dissertation]({{ '/projects/dissertation/' | relative_url }}) ·
-[papers by category]({{ '/projects/' | relative_url }})
+→ [The dissertation]({{ '/research/dissertation/' | relative_url }}) ·
+[papers by category]({{ '/research/' | relative_url }})
 
 ---
 
@@ -68,7 +68,7 @@ oil-tanker construction and maintenance costs by roughly 10%.
 
 {% include figure.liquid path="assets/img/industry/spl-drydock.jpg" alt="Barge and tanker sections under construction in a dry dock" caption="Vessel sections under construction in dry dock, where the tanker build and maintenance work was carried out." zoomable=true %}
 
-→ [Full detail on the industry projects page]({{ '/projects/industry/' | relative_url }})
+→ [Full detail on the industry projects page]({{ '/research/industry/' | relative_url }})
 
 ---
 

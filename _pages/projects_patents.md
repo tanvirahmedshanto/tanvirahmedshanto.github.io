@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /projects/patents/
+permalink: /research/patents/
 title: patents
 description: One granted and one pending U.S. patent covering printhead-integrated in-situ annealing for fused filament fabrication.
 nav: false
@@ -8,7 +8,7 @@ toc:
   sidebar: left
 ---
 
-[← Back to research overview]({{ '/projects/' | relative_url }})
+[← Back to research overview]({{ '/research/' | relative_url }})
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /projects/
+permalink: /research/
 title: research
 description: Journal articles, conference papers, patents, and industry work in additive manufacturing process innovation, fracture mechanics, and applied mechanical engineering.
 nav: true
@@ -14,7 +14,7 @@ experiments, imaging what happens inside the bond, and modelling the result.
 <div class="card mt-3 mb-4">
   <div class="card-body">
     <h3 class="card-title">
-      <a href="{{ '/projects/dissertation/' | relative_url }}">Doctoral Dissertation</a>
+      <a href="{{ '/research/dissertation/' | relative_url }}">Doctoral Dissertation</a>
     </h3>
     <p class="card-text">
       <strong>Improving Strength and Fracture Resistance in Fused Filament Fabrication Through
@@ -30,7 +30,7 @@ experiments, imaging what happens inside the bond, and modelling the result.
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-        <h3 class="card-title"><a href="{{ '/projects/journal/' | relative_url }}">Journal Articles</a></h3>
+        <h3 class="card-title"><a href="{{ '/research/journal/' | relative_url }}">Journal Articles</a></h3>
         <p class="card-text">
           Peer-reviewed journal work, manuscripts under review, and research in progress — with the
           methodology and the numbers behind each result.
@@ -41,7 +41,7 @@ experiments, imaging what happens inside the bond, and modelling the result.
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-        <h3 class="card-title"><a href="{{ '/projects/conference/' | relative_url }}">Conference Papers</a></h3>
+        <h3 class="card-title"><a href="{{ '/research/conference/' | relative_url }}">Conference Papers</a></h3>
         <p class="card-text">
           Peer-reviewed conference proceedings spanning SAMPE, SFF, IISE, and MARTEC.
         </p>
@@ -51,7 +51,7 @@ experiments, imaging what happens inside the bond, and modelling the result.
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-        <h3 class="card-title"><a href="{{ '/projects/patents/' | relative_url }}">Patents</a></h3>
+        <h3 class="card-title"><a href="{{ '/research/patents/' | relative_url }}">Patents</a></h3>
         <p class="card-text">
           One granted and one pending U.S. patent covering printhead-integrated in-situ annealing.
         </p>
@@ -61,7 +61,7 @@ experiments, imaging what happens inside the bond, and modelling the result.
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-        <h3 class="card-title"><a href="{{ '/projects/industry/' | relative_url }}">Industry Projects</a></h3>
+        <h3 class="card-title"><a href="{{ '/research/industry/' | relative_url }}">Industry Projects</a></h3>
         <p class="card-text">
           Process equipment, piping design, and capital project work in the petrochemical sector, plus
           commercialization at Increscent.

@@ -30,7 +30,7 @@ validating where improved z-direction strength genuinely changes a buying decisi
 that evidence into product requirements and qualification criteria.
 
 Directly informed the commercialization roadmap at
-[Increscent, Inc.]({{ '/projects/industry/' | relative_url }}).
+[Increscent, Inc.]({{ '/research/industry/' | relative_url }}).
 
 ---
 
@@ -81,4 +81,4 @@ Early-stage campus award supporting the venture that became Increscent, Inc.
 ## Patents and recognition
 
 Beyond funded awards, the underlying research produced one granted and one pending U.S. patent —
-see the [patents page]({{ '/projects/patents/' | relative_url }}).
+see the [patents page]({{ '/research/patents/' | relative_url }}).

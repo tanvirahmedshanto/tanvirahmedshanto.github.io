@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /projects/conference/
+permalink: /research/conference/
 title: conference papers
 description: Peer-reviewed conference proceedings spanning SAMPE, the Solid Freeform Fabrication Symposium, IISE, and MARTEC.
 nav: false
@@ -8,7 +8,7 @@ toc:
   sidebar: left
 ---
 
-[← Back to research overview]({{ '/projects/' | relative_url }})
+[← Back to research overview]({{ '/research/' | relative_url }})
 
 ---
 

@@ -19,7 +19,7 @@ of the laboratory and toward a product.
 
 **$50,000** · National Science Foundation
 
-<!-- {% include figure.liquid path="assets/img/awards/nsf-icorps.jpg" alt="NSF I-Corps team" caption="NSF I-Corps Team programme." zoomable=true %} -->
+{% comment %} {% include figure.liquid path="assets/img/awards/nsf-icorps.jpg" alt="NSF I-Corps team" caption="NSF I-Corps Team programme." zoomable=true %} {% endcomment %}
 
 Awarded for **_High-Performance 3D-Printed Plastic Parts Through Novel Process Enhancement_**.
 
@@ -38,7 +38,7 @@ Directly informed the commercialization roadmap at
 
 **$35,000** venture award · The University of Texas at Arlington
 
-<!-- {% include figure.liquid path="assets/img/awards/maverick-pitch.jpg" alt="Maverick Business Pitch Competition" caption="Maverick Business Pitch Competition." zoomable=true %} -->
+{% comment %} {% include figure.liquid path="assets/img/awards/maverick-pitch.jpg" alt="Maverick Business Pitch Competition" caption="Maverick Business Pitch Competition." zoomable=true %} {% endcomment %}
 
 Recognised for technical innovation, commercialization strategy, and business presentation — judged on
 whether a defensible technology could be paired with a credible route to market.
@@ -49,7 +49,7 @@ whether a defensible technology could be paired with a credible route to market.
 
 **$2,000** · Wheelwright Foundation · 2023
 
-<!-- {% include figure.liquid path="assets/img/awards/wheelwright.jpg" alt="Wheelwright Foundation Scholarship" caption="Wheelwright Foundation Scholarship." zoomable=true %} -->
+{% comment %} {% include figure.liquid path="assets/img/awards/wheelwright.jpg" alt="Wheelwright Foundation Scholarship" caption="Wheelwright Foundation Scholarship." zoomable=true %} {% endcomment %}
 
 Awarded in support of graduate study in mechanical engineering.
 
@@ -59,7 +59,7 @@ Awarded in support of graduate study in mechanical engineering.
 
 **$2,000** stipend · The University of Texas at Arlington
 
-<!-- {% include figure.liquid path="assets/img/awards/i-engage.jpg" alt="I-ENGAGE mentorship programme" caption="I-ENGAGE Student Mentorship Program." zoomable=true %} -->
+{% comment %} {% include figure.liquid path="assets/img/awards/i-engage.jpg" alt="I-ENGAGE mentorship programme" caption="I-ENGAGE Student Mentorship Program." zoomable=true %} {% endcomment %}
 
 Selected to mentor undergraduate researchers in technical concepts, research methods, and
 problem-solving — guiding students through the transition from coursework to open-ended research
@@ -72,7 +72,7 @@ questions. Complements teaching assistant work across
 
 **$1,000** · Blackstone LaunchPad · 2022
 
-<!-- {% include figure.liquid path="assets/img/awards/blackstone.jpg" alt="Blackstone LaunchPad Campus Award" caption="Blackstone LaunchPad Campus Award." zoomable=true %} -->
+{% comment %} {% include figure.liquid path="assets/img/awards/blackstone.jpg" alt="Blackstone LaunchPad Campus Award" caption="Blackstone LaunchPad Campus Award." zoomable=true %} {% endcomment %}
 
 Early-stage campus award supporting the venture that became Increscent, Inc.
 

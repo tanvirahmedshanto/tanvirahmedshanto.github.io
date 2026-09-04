@@ -29,7 +29,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Mechanical engineer, PhD. I work on additive manufacturing process innovation, with expertise spanning experimental and computational mechanics, design of experiments, material characterization, and machine learning.
+Mechanical engineer, PhD. I build hardware that fixes the oldest problem in 3D printing: printed parts are weak in the direction they're built.
 
-My doctoral work at UT Arlington produced an awarded patent and a patent-pending printhead that improves interlayer strength in polymer 3D printing. I'm also technical lead at Increscent, Inc., where a team of us is building products around it.
+My doctoral work produced a printhead that anneals each layer as it is deposited, rather than baking the finished part in an oven and distorting it. Across four studies it raised interlayer toughness by up to 68%, tensile strength by 39%, and Mode-I fracture resistance by 92%. It also cut the scatter in fracture toughness by half, which matters more than the averages for anything that has to be qualified. The design is covered by an issued and a pending US patent.
+
+I'm co-founder and technical lead at Increscent, Inc., where we're commercializing it with support from a $50,000 NSF I-Corps award.
 

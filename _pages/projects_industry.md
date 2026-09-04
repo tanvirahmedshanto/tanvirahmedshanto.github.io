@@ -14,11 +14,9 @@ toc:
 
 # Super Petrochemical Limited
 
-**Mechanical Engineer** · Bangladesh · October 2018 – October 2019
+**Mechanical Engineer** · [Super Petrochemical Limited](https://sppl.com.bd/) · Bangladesh · October 2018 – October 2019
 
-<!-- Plant photograph goes here.
-{% include figure.liquid path="assets/img/industry/spl-plant.jpg" alt="Super Petrochemical Limited plant" caption="Super Petrochemical Limited facility." zoomable=true %}
--->
+{% include figure.liquid path="assets/img/industry/spl-drydock.jpg" alt="Barge and tanker sections under construction in a dry dock" caption="Vessel sections under construction in dry dock." zoomable=true %}
 
 A year in heavy industry covering process equipment design, piping stress analysis, capital project
 support, and day-to-day workshop operations — the practical counterpart to later research work, where
@@ -26,14 +24,14 @@ designs had to survive fabrication, installation, and maintenance in the field.
 
 ## Mooring and pipeline capital programme
 
-<!-- {% include figure.liquid path="assets/img/industry/spl-pipeline.jpg" alt="Pipeline installation" caption="Pipeline and mooring works." zoomable=true %} -->
+{% comment %} {% include figure.liquid path="assets/img/industry/spl-pipeline.jpg" alt="Pipeline installation" caption="Pipeline and mooring works." zoomable=true %} {% endcomment %}
 
 Supported development of a **$10M mooring and pipeline programme**, including proposal review across
 component drawings, assembly manufacturing instructions, bills of materials, and supporting analysis.
 
 ## Process equipment and piping design
 
-<!-- {% include figure.liquid path="assets/img/industry/spl-piping.jpg" alt="Piping layout" caption="Process piping layout." zoomable=true %} -->
+{% comment %} {% include figure.liquid path="assets/img/industry/spl-piping.jpg" alt="Piping layout" caption="Process piping layout." zoomable=true %} {% endcomment %}
 
 Designed process equipment and piping layouts in **SolidWorks** and **AutoCAD Plant 3D**, and performed
 piping stress analysis in **CAESAR II**. Worked directly with fabrication and installation teams so that
@@ -55,7 +53,7 @@ root cause analysis, DMAIC, SPC, Kaizen, 5-Whys, 5S, and 8D — to keep operatio
 
 # Increscent, Inc.
 
-**Co-Founder and Technical Lead** · Texas, USA · August 2022 – Present
+**Co-Founder and Technical Lead** · [Increscent, Inc.](https://www.increscent3d.com/) · Texas, USA · August 2022 – Present
 
 Commercializing the university-developed in-situ annealing printing method covered by
 [U.S. Patent 12,496,776 B2]({{ '/projects/patents/' | relative_url }}).

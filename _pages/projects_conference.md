@@ -17,9 +17,9 @@ toc:
 Dola, I. S., Ahmed, R., Zulqernine, M. J., **Shanto, T. A.**, & Taylor, R. M.
 _SAMPE Conference and Exhibition_, Seattle, WA, April 27–30, 2026.
 
-<!-- Add a figure: e.g. annotated defect detection output
+{% comment %} Add a figure: e.g. annotated defect detection output
 {% include figure.liquid path="assets/img/research/defect-detection.jpg" alt="Detected FFF print defects" caption="Automated detection of warping, stringing and layer shifting." zoomable=true %}
--->
+{% endcomment %}
 
 **Methodology.** Three deep-learning computer-vision architectures — YOLO, Mask R-CNN, and DeepLab — were
 evaluated for detecting and segmenting typical FFF defects: cracking, warping, stringing, off-platform

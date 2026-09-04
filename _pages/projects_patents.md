@@ -16,10 +16,10 @@ toc:
 
 **U.S. Patent 12,496,776 B2** — granted 16 December 2025
 
-<!-- Patent drawings are public domain. Download a figure from the patent record and drop it in
+{% comment %} Patent drawings are public domain. Download a figure from the patent record and drop it in
      assets/img/research/, then uncomment:
 {% include figure.liquid path="assets/img/research/patent-us12496776.png" alt="Printhead assembly drawing from US Patent 12,496,776 B2" caption="Printhead assembly: nozzle, heating block, and upstream cooling element." zoomable=true %}
--->
+{% endcomment %}
 
 Taylor, R. M., Rane, R., Mrinal, M., Patel, P. T., & **Shanto, T. A.**
 Assignee: University of Texas System. Filed 27 July 2023 (application 18/360,150); priority 9 August 2022.
@@ -42,9 +42,9 @@ to conventional FFF.
 
 **U.S. Patent Application 19/660,770** — pending
 
-<!-- Image to be supplied.
+{% comment %} Image to be supplied.
 {% include figure.liquid path="assets/img/research/patent-adaptive-annealing.png" alt="Adaptive annealing printhead drawing" caption="Adaptive annealing printhead." zoomable=true %}
--->
+{% endcomment %}
 
 **Shanto, T. A.**, Taylor, R. M., Mrinal, M., Ahmed, R., Patel, P. T., Rahman, M. M., Dola, I. S., & Deshpande, R.
 

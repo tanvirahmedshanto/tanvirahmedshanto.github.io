@@ -9,15 +9,17 @@ toc:
   sidebar: left
 ---
 
-Seven years across research and industry, moving between the two: heavy-industry mechanical engineering
-first, then doctoral research on why extrusion-printed parts fail between layers, then commercializing
-the hardware that came out of it.
+Seven years split between industry and research, and the movement between them is the point. I started
+in heavy industry, designing process equipment and piping that had to survive fabrication, installation,
+and a maintenance crew. That grounding shaped the doctoral work that followed: not only why
+extrusion-printed parts fail between layers, but what could be changed on the machine to stop it. The
+printhead that came out of that research is now a patented product I am helping bring to market.
 
 ---
 
 ## Co-Founder and Technical Lead
 
-**Increscent, Inc.** — Texas, USA · _August 2022 – Present_
+**[Increscent, Inc.](https://www.increscent3d.com/)** — Texas, USA · _August 2022 – Present_
 
 Commercializing the university-developed in-situ annealing printing method covered by U.S. Patent
 12,496,776 B2. Built the staged R&D and commercialization roadmap, authored the proposals behind a
@@ -30,34 +32,42 @@ turned laboratory results into product requirements.
 
 ## Graduate Student Researcher
 
-**The University of Texas at Arlington** — Arlington, Texas, USA · _August 2021 – Present_
+**The University of Texas at Arlington** — Arlington, Texas, USA · _August 2021 – 7 August 2026_
 
 Doctoral research on interlayer bonding, void formation, and fracture behaviour in extrusion-based
-additive manufacturing — combining designed experiments, thermal and tomographic imaging, and
+additive manufacturing, combining designed experiments, thermal and tomographic imaging, and
 finite-element modelling.
+
+{% comment %} Lab images. Drop files in assets/img/research/ and uncomment.
+{% include figure.liquid path="assets/img/research/lab-01.jpg" alt="Additive manufacturing research laboratory at UT Arlington" caption="The print and test setup used across the four dissertation studies." zoomable=true %}
+{% include figure.liquid path="assets/img/research/lab-02.jpg" alt="Printhead and thermography setup" caption="In-situ MWIR thermography during deposition." zoomable=true %}
+{% endcomment %}
 
 - Integrated MWIR thermography, X-ray μ-CT, tensile/DMA/Mode-I testing, and SEM fractography to link
   interfacial thermal history, void morphology, and structural response.
-- Ran a randomized 2×3×5 full-factorial programme across 60 print batches (GLM/ANOVA, Type III sums of
-  squares, Tukey HSD).
-- Quantified in-situ annealing gains in ABS-CF: 39% higher ultimate tensile strength and roughly 92%
-  higher Mode-I fracture resistance, with crack-path voids cut from about 4.0% to 0.7%.
+- Ran randomized full-factorial programmes, including a 2×3×5 design across 60 print batches, analysed
+  with GLM/ANOVA, Type III sums of squares, and Tukey HSD.
+- Raised interlayer toughness by up to 68% in ABS and Mode-I fracture resistance by 92% in short-fiber
+  ABS, while cutting the coefficient of variation in fracture toughness from 20.1% to 9.5%.
 - Built μ-CT-informed Abaqus RVEs and Abaqus/Explicit cohesive-zone DCB and SENB models, calibrated
   against ASTM D5528 and D5045 testing.
 - Designed and prototyped the adaptive in-situ annealing printheads behind one issued and one pending
   U.S. patent.
 
-→ [Papers and findings by category]({{ '/projects/' | relative_url }})
+→ [The dissertation]({{ '/projects/dissertation/' | relative_url }}) ·
+[papers by category]({{ '/projects/' | relative_url }})
 
 ---
 
 ## Mechanical Engineer
 
-**Super Petrochemical Limited** — Bangladesh · _October 2018 – October 2019_
+**[Super Petrochemical Limited](https://sppl.com.bd/)** — Bangladesh · _October 2018 – October 2019_
 
 Process equipment and piping design, CAESAR II stress analysis, and workshop operations supporting a
 $10M mooring and pipeline programme. Coordinated a 70-person workshop and maintenance crew and reduced
 oil-tanker construction and maintenance costs by roughly 10%.
+
+{% include figure.liquid path="assets/img/industry/spl-drydock.jpg" alt="Barge and tanker sections under construction in a dry dock" caption="Vessel sections under construction in dry dock, where the tanker build and maintenance work was carried out." zoomable=true %}
 
 → [Full detail on the industry projects page]({{ '/projects/industry/' | relative_url }})
 

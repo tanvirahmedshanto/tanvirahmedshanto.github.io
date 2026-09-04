@@ -19,9 +19,9 @@ Advisor: **Dr. Robert M. Taylor** · Defended 14 August 2026
 
 [View in the UTA MavMatrix repository](https://mavmatrix.uta.edu/mechaerospace_dissertations2/8)
 
-<!-- Hero image: printhead, print in progress, or a fracture surface
+{% comment %} Hero image: printhead, print in progress, or a fracture surface
 {% include figure.liquid path="assets/img/research/dissertation-hero.jpg" alt="In-situ annealing printhead during deposition" caption="The printhead-integrated in-situ annealing system during deposition." zoomable=true %}
--->
+{% endcomment %}
 
 ---
 
@@ -69,7 +69,7 @@ comparisons.
 
 ### Characterisation
 
-<!-- {% include figure.liquid path="assets/img/research/dissertation-microct.jpg" alt="μ-CT reconstruction of internal voids" caption="X-ray μ-CT reconstruction showing void distribution along the crack path." zoomable=true %} -->
+{% comment %} {% include figure.liquid path="assets/img/research/dissertation-microct.jpg" alt="μ-CT reconstruction of internal voids" caption="X-ray μ-CT reconstruction showing void distribution along the crack path." zoomable=true %} {% endcomment %}
 
 - **MWIR thermography** — interfacial thermal history, including welding time above the glass transition
   temperature, measured in situ during deposition

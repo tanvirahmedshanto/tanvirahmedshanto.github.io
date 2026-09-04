@@ -19,9 +19,9 @@ toc:
 **Shanto, T. A.**, Ahmed, R., Patel, P., Zulqernine, M. J., Chen, V., Jain, A., & Taylor, R. M.
 _Journal of Manufacturing Processes_, **170**, 303–318 (2026).
 
-<!-- Add a figure: e.g. thermography frame or μ-CT void reconstruction
+{% comment %} Add a figure: e.g. thermography frame or μ-CT void reconstruction
 {% include figure.liquid path="assets/img/research/jmp-thermography.jpg" alt="MWIR thermograph of the bond line during deposition" caption="In-situ MWIR thermography of the interfacial weld region." zoomable=true %}
--->
+{% endcomment %}
 
 **Methodology.** A full-factorial design of experiments examined printhead type, print speed, and
 inter-sample spacing, with modulus of toughness (strain energy) as the primary response. Real-time

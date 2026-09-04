@@ -15,6 +15,7 @@ toc:
 # Published
 
 ## In-situ annealing and thermal-morphological evolution during extrusion-based additive manufacturing
+{:data-toc-text="In-situ annealing, ABS"}
 
 **Shanto, T. A.**, Ahmed, R., Patel, P., Zulqernine, M. J., Chen, V., Jain, A., & Taylor, R. M.
 _Journal of Manufacturing Processes_, **170**, 303–318 (2026).
@@ -42,6 +43,7 @@ govern how well annealing works in batch printing.
 ---
 
 ## Evaluation of in-process heating for extrusion printing of tall thin-walled structures
+{:data-toc-text="In-process heating, thin walls"}
 
 Patel, P., Rahman, M. M., **Shanto, T. A.**, Ahmed, R., Kulkarni, P., Chen, V. C. P., Jain, A., & Taylor, R. M.
 _Progress in Additive Manufacturing_ (2026).
@@ -56,6 +58,7 @@ PLA. The best condition reached 51.10 MPa bending strength, a 25% gain, with def
 ---
 
 ## Experimental characterization of enhanced fused filament fabrication (FFF) of tall thin-walled structures using polylactic acid (PLA)
+{:data-toc-text="Enhanced FFF, PLA"}
 
 Patel, P., Ahmed, R., **Shanto, T. A.**, Jain, A., & Taylor, R. M.
 _The International Journal of Advanced Manufacturing Technology_, **139**(11–12), 5663–5675 (2025).
@@ -69,6 +72,7 @@ than doubled while geometric accuracy and surface finish were maintained or impr
 ---
 
 ## A review of design and fabrication strategies for thermoplastic lightweight thin-walled stiffened shells and lattice structures utilizing fused-filament fabrication (FFF)
+{:data-toc-text="Lightweight structures review"}
 
 Ahmed, R., Dola, I. S., Ahmed, S., Rahman, M. M., **Shanto, T. A.**, & Taylor, R. M.
 _The International Journal of Advanced Manufacturing Technology_ (2026).
@@ -82,6 +86,7 @@ AI-driven process control and digital twins as the next directions.
 ---
 
 ## Study the performance of a dynamic wall heat exchanger using computational fluid dynamics
+{:data-toc-text="Dynamic wall heat exchanger"}
 
 Uddin, M. M., Akhtaruzzaman, R., **Shanto, T. A.**, & Hasan, M. N.
 _European Journal of Engineering and Technology Research_, **8**(3), 38–42 (2023).
@@ -97,6 +102,7 @@ was achieved even at minimal applied pressure.
 # Under Review
 
 ## Effects of in-process annealing and programmed interlayer cooling on the tensile performance and interlayer morphology of PLA fabricated by FFF
+{:data-toc-text="Interlayer cooling, PLA"}
 
 Ahmed, R., **Shanto, T. A.**, Raiyan, A. Z., Ahmed, S., Barua, S., Chen, V. C. P., Jain, A., Adnan, A., & Taylor, R. M.
 
@@ -110,6 +116,7 @@ Under review.
 ---
 
 ## In-situ annealing of vertically printed short-carbon-fiber ABS: a process-structure-property study of bonding potential, voids, and z-direction performance
+{:data-toc-text="In-situ annealing, ABS-CF"}
 
 **Shanto, T. A.**, Rahman, M. M., Barua, S., Ahmed, S., Raiyan, A. Z., Ahmed, R., Jain, A., Adnan, A., & Taylor, R. M.
 
@@ -133,6 +140,7 @@ tearing absorbing the extra energy instead of the weld line releasing.
 ---
 
 ## Controlling interlayer bond strength in fused filament fabrication through adaptive in-situ annealing
+{:data-toc-text="Adaptive annealing"}
 
 **Shanto, T. A.**, Ahmed, R., Patel, P., Barua, S., Dola, I. S., Chen, V., Jain, A., & Taylor, R. M.
 
@@ -161,6 +169,7 @@ cross-sectional accuracy, at a modest cost in build height.
 # Ongoing
 
 ## Experimental and multiscale numerical investigation of interlayer fracture in standard and in-situ-annealed FFF structures
+{:data-toc-text="Interlayer fracture"}
 
 **Shanto, T. A.**, Ahmed, S., Labanya, F. N., Lin, S., & Taylor, R. M.
 
@@ -197,6 +206,7 @@ arrive together.
 ---
 
 ## Improving the sealing capacity of FFF ducts for aerospace environmental-control-system applications
+{:data-toc-text="FFF duct sealing"}
 
 Rahman, M. M., **Shanto, T. A.**, Ahmed, R., & Taylor, R. M.
 
@@ -205,6 +215,7 @@ Manuscript in preparation.
 ---
 
 ## Improving the mechanical performance of lightweight PLA for unmanned aerial vehicles
+{:data-toc-text="Lightweight PLA, UAV"}
 
 Ahmed, S., **Shanto, T. A.**, Ahmed, R., & Taylor, R. M.
 
@@ -213,6 +224,7 @@ Ongoing research.
 ---
 
 ## Improving the compressive strength of thin-walled stiffened cylindrical structures and characterizing damage using acoustic-emission sensing
+{:data-toc-text="Stiffened cylinders"}
 
 Ahmed, R., Zulqernine, M. J., **Shanto, T. A.**, Lin, S., & Taylor, R. M.
 

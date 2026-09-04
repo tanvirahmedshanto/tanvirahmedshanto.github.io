@@ -13,6 +13,7 @@ toc:
 ---
 
 ## Evaluation of deep learning architectures for defect detection in fused filament fabrication
+{:data-toc-text="Deep learning defect detection"}
 
 Dola, I. S., Ahmed, R., Zulqernine, M. J., **Shanto, T. A.**, & Taylor, R. M.
 _SAMPE Conference and Exhibition_, Seattle, WA, April 27–30, 2026.
@@ -26,6 +27,7 @@ R-CNN better spatial interpretability, and DeepLab worked mainly for compact def
 ---
 
 ## Machine learning-based prediction of toughness in fused filament fabrication: leveraging in-process annealing with enhanced printheads
+{:data-toc-text="ML toughness prediction"}
 
 Ahmed, R., **Shanto, T. A.**, Rahman, M. M., Taylor, R. M., & Jain, A.
 _Solid Freeform Fabrication 2025: Proceedings of the 36th Annual International Solid Freeform Fabrication Symposium_, 1182–1200.
@@ -37,6 +39,7 @@ to predict toughness in annealed ABS. Artificial neural networks reached 86.7% b
 ---
 
 ## Leveraging large language models for process parameter optimization in 3D-printed ABS polymer specimens
+{:data-toc-text="LLM parameter optimization"}
 
 **Shanto, T. A.**, Pavel, H. R., Ahmed, R., Abdullah, M., & Taylor, R. M.
 _IISE Annual Conference and Expo 2025_, 1351–1356.
@@ -51,6 +54,7 @@ scarce for conventional design of experiments.
 ---
 
 ## Predicting mechanical strength in FDM printed ABS parts with in-process annealing: a machine learning approach
+{:data-toc-text="ML strength prediction"}
 
 **Shanto, T. A.**, Shahriar, M. A., Ahmed, T., Zulqernine, M. J., & Taylor, R. M.
 _IISE Annual Conference and Expo 2025_, 1224–1229.
@@ -64,6 +68,7 @@ strength, and Random Forest gave the most accurate prediction among the regresso
 ---
 
 ## A statistical approach for evaluating printing temperature and material flowrate effects on lightweight polylactic acid in fused filament fabrication
+{:data-toc-text="Temperature and flowrate, LW PLA"}
 
 Ahmed, S., Rahman, M. M., **Shanto, T. A.**, Ahmed, R., & Taylor, R. M.
 _IISE Annual Conference Proceedings 2026_ (Abstract ID 17263).
@@ -77,6 +82,7 @@ In press.
 ---
 
 ## A statistical study on the influence of build-volume temperature and bead overlapping of PEI in fused filament fabrication
+{:data-toc-text="Build temperature and overlap, PEI"}
 
 Rahman, M. M., Ahmed, S., **Shanto, T. A.**, Ahmed, R., & Taylor, R. M.
 _IISE Annual Conference Proceedings 2026_ (Abstract ID 16940).
@@ -90,6 +96,7 @@ In press.
 ---
 
 ## Genetic algorithms in order-picking route optimization: a review of advances and implications for logistics
+{:data-toc-text="Genetic algorithms, logistics"}
 
 Abdullah, M., Ozay, D., Ahmed, S. M. T., **Shanto, T. A.**, & Sridhar, E. P.
 _IISE Annual Conference and Expo 2025_, 1375–1380.
@@ -103,6 +110,7 @@ outperformed traditional methods in warehouse order picking.
 ---
 
 ## Application of fused filament fabrication in the marine sector: from rapid prototyping to final product
+{:data-toc-text="FFF in marine sector"}
 
 Ahmed, R., Niloy, R. S., Mozumder, M. R., & **Shanto, T. A.**
 _Proceedings of MARTEC 2024_, Johor Bahru, Malaysia, 24–26 September 2024.
@@ -113,6 +121,7 @@ still constraining it, and the research directions that would close them.
 ---
 
 ## An investigation on the applications of additive manufacturing in the marine industry
+{:data-toc-text="AM in marine industry"}
 
 Zulqernine, M. J., Alam, M. A., Uddin, M. R., Dola, I. S., & **Shanto, T. A.**
 _Proceedings of MARTEC 2024_, Johor Bahru, Malaysia, 24–26 September 2024.

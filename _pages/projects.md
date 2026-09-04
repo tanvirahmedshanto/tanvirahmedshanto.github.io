@@ -4,12 +4,27 @@ permalink: /projects/
 title: research
 description: Journal articles, conference papers, patents, and industry work in additive manufacturing process innovation, fracture mechanics, and applied mechanical engineering.
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
 My work centres on a single question: **why are extrusion-printed parts weak between layers, and what
 can be changed during printing to fix it?** Answering it has meant building hardware, running designed
 experiments, imaging what happens inside the bond, and modelling the result.
+
+<div class="card mt-3 mb-4">
+  <div class="card-body">
+    <h3 class="card-title">
+      <a href="{{ '/projects/dissertation/' | relative_url }}">Doctoral Dissertation</a>
+    </h3>
+    <p class="card-text">
+      <strong>Improving Strength and Fracture Resistance in Fused Filament Fabrication Through
+      Printhead-Integrated In-Situ Annealing</strong> — Ph.D., UT Arlington, 2026. The work that ties
+      the rest of this page together: a patented printhead that anneals the bond line as it forms,
+      validated through designed experiments, thermography, μ-CT, fracture testing, and
+      cohesive-zone modelling.
+    </p>
+  </div>
+</div>
 
 <div class="row row-cols-1 row-cols-md-2 g-4 mt-2">
   <div class="col">

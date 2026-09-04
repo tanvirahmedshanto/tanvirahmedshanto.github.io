@@ -4,7 +4,7 @@ permalink: /experience/
 title: experience
 description: Research, industry, and teaching roles across additive manufacturing R&D, hardware prototyping, and heavy-industry mechanical engineering.
 nav: true
-nav_order: 2
+nav_order: 1
 toc:
   sidebar: left
 ---

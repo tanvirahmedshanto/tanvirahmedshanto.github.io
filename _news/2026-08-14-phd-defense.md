@@ -5,5 +5,6 @@ inline: true
 related_posts: false
 ---
 
-Successfully defended my Ph.D. dissertation, _Optimizing Interlayer Adhesion in Fused Filament
-Fabrication (FFF) for Improved Mechanical Performance_, at UT Arlington under Dr. Robert M. Taylor.
+Successfully defended my Ph.D. dissertation, _Improving Strength and Fracture Resistance in Fused
+Filament Fabrication Through Printhead-Integrated In-Situ Annealing_, at UT Arlington under
+Dr. Robert M. Taylor.

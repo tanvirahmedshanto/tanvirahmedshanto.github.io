@@ -74,10 +74,9 @@ oil-tanker construction and maintenance costs by roughly 10%.
 
 ## Teaching Assistant
 
-**The University of Texas at Arlington** — Arlington, Texas, USA · _September 2021 – Present_
+**The University of Texas at Arlington** — Arlington, Texas, USA · _September 2021 – August 2026_
 
 Graduate and undergraduate mechanical engineering courses spanning additive manufacturing, solid
-mechanics, thermodynamics, and engineering analysis, plus undergraduate research mentorship through the
-I-ENGAGE programme.
+mechanics, thermodynamics, and engineering analysis.
 
 → [Courses and enrolments]({{ '/teaching/' | relative_url }})

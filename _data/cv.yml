@@ -72,12 +72,12 @@ cv:
         position: Teaching Assistant
         location: Arlington, Texas, USA
         start_date: 2021-09
-        summary: Teaching assistant and mentor across graduate and undergraduate mechanical engineering courses. Full course details on the teaching page.
+        end_date: 2026-08
+        summary: Teaching assistant across graduate and undergraduate mechanical engineering courses. Full course details on the teaching page.
         highlights:
           - "Additive Manufacturing (MAE 5329, 200+ students): conducted laboratory exercises in SLA, SLS, material jetting, and FFF; trained students on universal testing, Simplify3D, PolyWorks, 3-Matic, and FARO arm scanning; mentored senior-design teams through 3D-printed UAV design, fabrication, testing, and competition."
           - "Solid Mechanics (MAE 2312, 30 students): led supplemental problem-solving sessions, supported coursework and projects, held office hours, and evaluated assignments, quizzes, and examinations."
           - "Additional courses: Problems in MAE (MAE 1140, 100 students), Introduction to Manufacturing (MAE 3344, 50 students), Thermodynamics I (MAE 3310, 40 students), and Engineering Analysis (MAE 5332, 48 students)."
-          - Selected for the I-ENGAGE Student Mentorship Program to guide undergraduate researchers in technical concepts, research methods, and problem-solving.
 
       - company: Super Petrochemical Limited
         position: Mechanical Engineer

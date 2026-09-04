@@ -2,14 +2,14 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Graduate and undergraduate mechanical engineering courses supported as a teaching assistant at UT Arlington, plus undergraduate research mentorship.
+description: Graduate and undergraduate mechanical engineering courses supported as a teaching assistant at UT Arlington.
 nav: true
 nav_order: 6
 ---
 
-I have served as a **Teaching Assistant** in the Department of Mechanical and Aerospace Engineering at
-**The University of Texas at Arlington** since September 2021, supporting both graduate and undergraduate
-courses across manufacturing, mechanics, and thermal sciences.
+I served as a **Teaching Assistant** in the Department of Mechanical and Aerospace Engineering at
+**The University of Texas at Arlington** from September 2021 to August 2026, supporting both graduate and
+undergraduate courses across manufacturing, mechanics, and thermal sciences.
 
 ## Additive Manufacturing — MAE 5329
 
@@ -37,8 +37,3 @@ evaluated assignments, quizzes, and examinations.
 | Engineering Analysis            | MAE 5332 | 48       |
 
 Supported instruction, assessment, office hours, and project guidance across all of the above.
-
-## Mentorship
-
-Selected for the **I-ENGAGE Student Mentorship Program** at UT Arlington to guide undergraduate
-researchers in technical concepts, research methods, and problem-solving.

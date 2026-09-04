@@ -17,9 +17,9 @@ of the laboratory and toward a product.
 
 ## NSF I-Corps Team Award
 
-**$50,000** · National Science Foundation
+**$50,000** · National Science Foundation · Great Lakes Regional I-Corps Hub, completed 1 June 2023
 
-{% comment %} {% include figure.liquid path="assets/img/awards/nsf-icorps.jpg" alt="NSF I-Corps team" caption="NSF I-Corps Team programme." zoomable=true %} {% endcomment %}
+{% include figure.liquid path="assets/img/awards/cert-05.jpg" alt="National Science Foundation I-Corps certificate awarded to Tanvir Shanto for the Great Lakes Regional I-Corps Hub Program, dated 1 June 2023" caption="NSF I-Corps, Great Lakes Regional Hub Program." zoomable=true %}
 
 Awarded for **_High-Performance 3D-Printed Plastic Parts Through Novel Process Enhancement_**.
 
@@ -38,10 +38,11 @@ Directly informed the commercialization roadmap at
 
 **$35,000** venture award · The University of Texas at Arlington
 
-{% comment %} {% include figure.liquid path="assets/img/awards/maverick-pitch.jpg" alt="Maverick Business Pitch Competition" caption="Maverick Business Pitch Competition." zoomable=true %} {% endcomment %}
+{% include figure.liquid path="assets/img/awards/awards-overview.jpg" alt="Two Maverick Business Pitch Competition cheque presentations, for $10,000 and $25,000, awarded for Outstanding Business Pitch under the Maverick Entrepreneurship Program" caption="Two Outstanding Business Pitch awards under the Maverick Entrepreneurship Program: $10,000 and $25,000." zoomable=true %}
 
-Recognised for technical innovation, commercialization strategy, and business presentation — judged on
-whether a defensible technology could be paired with a credible route to market.
+Won across two Outstanding Business Pitch awards — **$10,000 and $25,000** — under the Maverick
+Entrepreneurship Program, judged on technical innovation, commercialization strategy, and business
+presentation: whether a defensible technology could be paired with a credible route to market.
 
 ---
 
@@ -57,9 +58,9 @@ Awarded in support of graduate study in mechanical engineering.
 
 ## I-ENGAGE Student Mentorship Program
 
-**$2,000** stipend · The University of Texas at Arlington
+**$2,000** stipend · The University of Texas at Arlington · completed 9 August 2023
 
-{% comment %} {% include figure.liquid path="assets/img/awards/i-engage.jpg" alt="I-ENGAGE mentorship programme" caption="I-ENGAGE Student Mentorship Program." zoomable=true %} {% endcomment %}
+{% include figure.liquid path="assets/img/awards/cert-iengage.jpg" alt="University of Texas at Arlington I-ENGAGE Mentoring Program certificate awarded to Tanvir Ahmed Shanto in cooperation with the Graduate School, dated 9 August 2023" caption="I-ENGAGE Mentoring Program, in cooperation with the UTA Graduate School." zoomable=true %}
 
 Selected to mentor undergraduate researchers in technical concepts, research methods, and
 problem-solving — guiding students through the transition from coursework to open-ended research

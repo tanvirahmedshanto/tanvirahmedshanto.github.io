@@ -2,7 +2,7 @@
 layout: page
 permalink: /research/dissertation/
 title: doctoral dissertation
-description: Improving Strength and Fracture Resistance in Fused Filament Fabrication Through Printhead-Integrated In-Situ Annealing — Ph.D., The University of Texas at Arlington, 2026.
+description: Improving Strength and Fracture Resistance in Fused Filament Fabrication Through Printhead-Integrated In-Situ Annealing. Ph.D., The University of Texas at Arlington, 2026.
 nav: false
 toc:
   sidebar: left
@@ -23,96 +23,68 @@ Advisor: **Dr. Robert M. Taylor** · Defended 14 August 2026
 
 ---
 
-## The problem
+## Problem
 
-Fused filament fabrication builds a part one bead at a time, and every bead has to weld to the one
-beneath it while that material is already cooling. The result is a structural anisotropy that has
-limited the technology for decades: parts are strong along the print direction and weak across it. In
-the z-direction, printed polymers fail at interfaces that never fully healed, through voids that the
-process itself creates.
+Fused filament fabrication builds parts layer by layer, and polymer healing across each interlayer weld
+is usually incomplete. The result is anisotropic behaviour: parts are strong along the print direction
+and weak across it.
 
-The conventional remedy is to anneal the finished part in an oven. That works thermally but fails
-practically — the part loses geometric accuracy as it softens, and internal interfaces deep inside the
-geometry never see the heat they need.
-
-## The central idea
-
-Rather than treating the part after it is built, deliver thermal energy **at the bond line, while the
-bond is forming**. This dissertation designs, patents, and validates a printhead that does exactly that,
-then characterises what happens inside the material as a result.
-
-The engineering difficulty is not simply adding a heater. Softening the incoming filament destroys the
-back pressure that drives extrusion, so the printhead has to heat the deposition zone while keeping the
-filament upstream rigid — which is why the patented design pairs a heating block with an upstream
-cooling element.
-
----
+Post-process annealing can strengthen those interfaces, but heating the whole part risks dimensional
+distortion and warpage. On thin geometries that trade is rarely acceptable.
 
 ## Approach
 
-The work spans hardware design, designed experimentation, multi-modal characterisation, and modelling,
-with each stage anchoring the next.
+This work reheats each layer locally as it is deposited, using a heated annular plate integrated into
+the printhead. Softening the incoming filament would destroy the back pressure that drives extrusion,
+so the design pairs the heating element with upstream cooling that keeps the feed rigid.
 
-### Hardware
+The studies cover neat ABS and short-carbon-fiber ABS (ABS-CF), combining non-isothermal healing theory
+with in-process measurement. Bonding potential, welding time, and critical bonding temperature link the
+measured thermal history to interfacial healing.
 
-Adaptive in-situ annealing printheads designed using GD&T and DFM/DFA principles, yielding one issued
-and one pending U.S. patent.
+### Methods
 
-### Designed experimentation
-
-Randomized full-factorial programmes — including a 2×3×5 design across 60 print batches — examining
-printhead type, print speed, inter-sample spacing, bead overlap, and build-volume temperature. Analysis
-used GLM/ANOVA with Type III sums of squares, interaction and residual diagnostics, and Tukey HSD
-comparisons.
-
-### Characterisation
-
-- **MWIR thermography** — interfacial thermal history, including welding time above the glass transition
-  temperature, measured in situ during deposition
-- **X-ray μ-CT** — void morphology and volume fraction inside the bond region
-- **SEM fractography** — whether failure ran along interfaces or through the polymer itself
-- **DMA, tensile, and Mode-I fracture testing** — ASTM D5528 (DCB) and ASTM D5045 (SENB)
+- **In-process infrared thermography** for interfacial thermal history and welding time above the glass
+  transition
+- **X-ray micro-computed tomography** for void morphology and volume fraction
+- **SEM fractography** to identify whether failure ran along the interface or through the polymer
+- **Tensile testing, DMA, and Mode-I fracture testing** to ASTM D5528 (DCB) and ASTM D5045 (SENB)
+- **Full-factorial design of experiments** analysed with GLM/ANOVA and Tukey HSD
 
 {% include figure.liquid path="assets/img/research/diss-fig2.jpg" alt="Mechanical characterisation equipment: dynamic mechanical analyser, tensile test, two three-point bend configurations, and a Mode-I fracture toughness test" caption="Mechanical characterisation: DMA, tensile, three-point bending, and Mode-I fracture testing." zoomable=true %}
 
-{% include figure.liquid path="assets/img/research/diss-fig3.jpg" alt="Material characterisation equipment: Bruker SkyScan 1273 micro-CT, scanning electron microscope, FLIR in-situ thermal monitoring, and a FARO arm scanner" caption="Material characterisation: μ-CT for void morphology, SEM for fracture surfaces, FLIR thermography for in-situ thermal history, and FARO arm scanning for geometry." zoomable=true %}
-
-### Modelling
-
-- μ-CT-informed representative volume elements in Abaqus, with three-axis virtual homogenization and
-  mesh convergence, producing low/mid/high engineering-property envelopes
-- Abaqus/Explicit cohesive-zone DCB and SENB models, with parameter studies on normal cohesive strength
-  and Mode-I fracture energy, calibrated against the physical tests
-- Supervised machine-learning models predicting mechanical performance from process parameters and
-  thermal features
+{% include figure.liquid path="assets/img/research/diss-fig3.jpg" alt="Material characterisation equipment: Bruker SkyScan 1273 micro-CT, scanning electron microscope, FLIR in-situ thermal monitoring, and a FARO arm scanner" caption="Material characterisation: micro-CT, SEM, FLIR thermography, and FARO arm scanning." zoomable=true %}
 
 ---
 
-## Principal findings
+## Results
 
-The through-line is that **thermal history at the interface predicts mechanical performance**, and that
-history can be controlled during printing.
+**Neat ABS, batch printing.** A full-factorial study established a practical operating window for
+localized annealing and produced an average **48.5% increase in build-direction toughness**, rising to
+68% under the best condition of low speed and close spacing.
 
-**In ABS under batch printing.** In-situ annealing raised toughness by up to **68%** at low speed and
-close spacing, increased bonding potential **83-fold**, and reduced void volume by **9%**. ANOVA
-identified a significant printhead–speed interaction and a main effect of spacing — meaning the benefit
-is not automatic, but depends on deposition kinematics and how parts are laid out on the plate.
+**ABS-CF.** Higher interfacial thermal exposure gave a **39% increase in tensile strength**, **63% in
+glassy storage modulus**, and **92% in Mode-I fracture resistance**. Scatter fell as well: the
+coefficient of variation in fracture toughness dropped from **20.1% to 9.5%**, because annealing closed
+the large voids sitting on the load path rather than densifying the part uniformly.
 
-**In short-carbon-fiber ABS printed vertically.** Ultimate tensile strength rose **39%**, elastic modulus
-**30%**, glassy storage modulus **63%**, and Mode-I fracture resistance roughly **92%**. Crack-path void
-content fell from about **4.0% to 0.7%**, and fracture shifted from interfacial to cohesive — the
-material began failing through the polymer rather than along the weld.
+**Adaptive printhead.** With independent control of plate temperature and standoff, plate temperature
+dominated within the process window. The best condition raised tensile strength by 34% and toughness by
+58%. A thin-wall box beam gained **55% in flexural strength**.
 
-**In PLA with programmed interlayer cooling.** The enhanced printhead with a cooling pause reached
-**53.4 ± 2.7 MPa**, about **86% of bulk PLA**, with the best specimen at **56.8 MPa (~92% of bulk)** and
-porosity of 0.885%. Thermography explained why: a standard printhead leaves the interface below the
-glass transition, limiting chain diffusion; continuous heating pushes it past the cold-crystallization
-onset, where crystallization arrests healing. Cycling the weld between those two temperatures sustains
-chain mobility without letting crystallization set in.
+**Fracture.** DCB conditional propagation resistance rose **84.3%** and SENB total work **96.2%**, while
+elastic stiffness stayed largely unchanged. The benefit therefore sits in the interlayer damage and
+fracture process, not in bulk stiffening.
 
-**In tall thin-walled structures.** In-situ thermal energy more than doubled bending strength while
-maintaining or improving geometric accuracy and surface finish — the combination oven annealing cannot
-deliver.
+## Conclusion
+
+Controlling local thermal history during printing improves interlayer healing, reduces critical
+mesostructural defects, and raises strength and fracture resistance, without the dimensional risk of
+whole-part annealing.
+
+One limit is worth stating. Performance does not rise without bound as heat input increases. The useful
+window is set jointly by material, geometry, print speed, plate temperature, and standoff, and thermal
+exposure is a property of the process and geometry together rather than of the setting alone.
 
 ---
 
@@ -125,6 +97,6 @@ deliver.
 | Conference papers | 9 peer-reviewed |
 | Commercialization | [Increscent, Inc.]({{ '/research/industry/' | relative_url }}), $50,000 NSF I-Corps Team award |
 
-Related work by category: [journal articles]({{ '/research/journal/' | relative_url }}) ·
+[Journal articles]({{ '/research/journal/' | relative_url }}) ·
 [conference papers]({{ '/research/conference/' | relative_url }}) ·
 [patents]({{ '/research/patents/' | relative_url }})

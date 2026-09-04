@@ -14,7 +14,7 @@ profile:
     <p>tanvirahmedshanto225@gmail.com</p>
 
 # The theme's selected-papers block links to /publications/, which no longer
-# exists — every paper now lives under /research/ instead.
+# exists. Every paper now lives under /research/ instead.
 selected_papers: false
 social: true # includes social icons at the bottom of the page
 
@@ -23,7 +23,7 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-# Re-enable once there are posts in _posts/ — an enabled but empty section
+# Re-enable once there are posts in _posts/. An enabled but empty section
 # renders as a blank box on the homepage.
 latest_posts:
   enabled: false

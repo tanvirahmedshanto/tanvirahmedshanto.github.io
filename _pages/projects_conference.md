@@ -17,7 +17,7 @@ toc:
 Dola, I. S., Ahmed, R., Zulqernine, M. J., **Shanto, T. A.**, & Taylor, R. M.
 _SAMPE Conference and Exhibition_, Seattle, WA, April 27–30, 2026.
 
-YOLO, Mask R-CNN, and DeepLab compared for detecting and segmenting FFF defects — cracking, warping,
+YOLO, Mask R-CNN, and DeepLab compared for detecting and segmenting FFF defects: cracking, warping,
 stringing, off-platform errors, and layer shifting. YOLO gave the best object-level localization, Mask
 R-CNN better spatial interpretability, and DeepLab worked mainly for compact defects.
 
@@ -41,8 +41,8 @@ to predict toughness in annealed ABS. Artificial neural networks reached 86.7% b
 **Shanto, T. A.**, Pavel, H. R., Ahmed, R., Abdullah, M., & Taylor, R. M.
 _IISE Annual Conference and Expo 2025_, 1351–1356.
 
-Four small language models — Phi-2, Qwen2.5-Math-1.5B, DeepSeek-R1-Distill-Qwen-1.5B, and
-StableLM-3B-4e1t — tested for few-shot prediction of tensile strength from nozzle type, extrusion width,
+Four small language models (Phi-2, Qwen2.5-Math-1.5B, DeepSeek-R1-Distill-Qwen-1.5B, and
+StableLM-3B-4e1t) tested for few-shot prediction of tensile strength from nozzle type, extrusion width,
 and print speed. Phi-2 performed best, suggesting a route for parameter optimization where data is too
 scarce for conventional design of experiments.
 

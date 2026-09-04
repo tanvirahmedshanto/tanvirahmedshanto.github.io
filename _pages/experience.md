@@ -19,7 +19,7 @@ printhead that came out of that research is now a patented product I am helping 
 
 ## Co-Founder and Technical Lead
 
-**[Increscent, Inc.](https://www.increscent3d.com/)** — Texas, USA · _August 2022 – Present_
+**[Increscent, Inc.](https://www.increscent3d.com/)** · Texas, USA · _August 2022 to present_
 
 Commercializing the university-developed in-situ annealing printing method covered by U.S. Patent
 12,496,776 B2. Built the staged R&D and commercialization roadmap, authored the proposals behind a
@@ -32,7 +32,7 @@ turned laboratory results into product requirements.
 
 ## Graduate Student Researcher
 
-**The University of Texas at Arlington** — Arlington, Texas, USA · _August 2021 – 7 August 2026_
+**The University of Texas at Arlington** · Arlington, Texas, USA · _August 2021 to 7 August 2026_
 
 Doctoral research on interlayer bonding, void formation, and fracture behaviour in extrusion-based
 additive manufacturing, combining designed experiments, thermal and tomographic imaging, and
@@ -58,7 +58,7 @@ finite-element modelling.
 
 ## Mechanical Engineer
 
-**[Super Petrochemical Limited](https://sppl.com.bd/)** — Bangladesh · _October 2018 – October 2019_
+**[Super Petrochemical Limited](https://sppl.com.bd/)** · Bangladesh · _October 2018 to October 2019_
 
 Process equipment and piping design, CAESAR II stress analysis, and workshop operations supporting a
 $10M mooring and pipeline programme. Coordinated a 70-person workshop and maintenance crew and reduced
@@ -74,7 +74,7 @@ oil-tanker construction and maintenance costs by roughly 10%.
 
 ## Teaching Assistant
 
-**The University of Texas at Arlington** — Arlington, Texas, USA · _September 2021 – August 2026_
+**The University of Texas at Arlington** · Arlington, Texas, USA · _September 2021 to August 2026_
 
 Graduate and undergraduate mechanical engineering courses spanning additive manufacturing, solid
 mechanics, thermodynamics, and engineering analysis.

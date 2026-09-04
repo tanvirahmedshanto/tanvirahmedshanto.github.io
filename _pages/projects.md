@@ -18,7 +18,7 @@ experiments, imaging what happens inside the bond, and modelling the result.
     </h3>
     <p class="card-text">
       <strong>Improving Strength and Fracture Resistance in Fused Filament Fabrication Through
-      Printhead-Integrated In-Situ Annealing</strong> — Ph.D., UT Arlington, 2026. The work that ties
+      Printhead-Integrated In-Situ Annealing</strong>. Ph.D., UT Arlington, 2026. The work that ties
       the rest of this page together: a patented printhead that anneals the bond line as it forms,
       validated through designed experiments, thermography, μ-CT, fracture testing, and
       cohesive-zone modelling.
@@ -32,8 +32,8 @@ experiments, imaging what happens inside the bond, and modelling the result.
       <div class="card-body">
         <h3 class="card-title"><a href="{{ '/research/journal/' | relative_url }}">Journal Articles</a></h3>
         <p class="card-text">
-          Peer-reviewed journal work, manuscripts under review, and research in progress — with the
-          methodology and the numbers behind each result.
+          Peer-reviewed journal work, manuscripts under review, and research in progress, with the
+          methodology and numbers behind each result.
         </p>
       </div>
     </div>

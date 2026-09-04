@@ -11,7 +11,7 @@ I served as a **Teaching Assistant** in the Department of Mechanical and Aerospa
 **The University of Texas at Arlington** from September 2021 to August 2026, supporting both graduate and
 undergraduate courses across manufacturing, mechanics, and thermal sciences.
 
-## Additive Manufacturing — MAE 5329
+## Additive Manufacturing, MAE 5329
 
 _200+ students_
 
@@ -20,7 +20,7 @@ jetting, and fused filament fabrication (FFF). Trained students on universal tes
 PolyWorks, 3-Matic, and FARO arm scanning. Mentored senior-design teams through 3D-printed UAV design,
 fabrication, testing, and competition activities.
 
-## Solid Mechanics — MAE 2312
+## Solid Mechanics, MAE 2312
 
 _30 students_
 

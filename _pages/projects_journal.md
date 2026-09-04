@@ -27,18 +27,17 @@ infrared thermography quantified interfacial thermal history, including welding 
 transition temperature. X-ray micro-computed tomography and optical microscopy related internal
 porosity and fracture behaviour to the measured toughness, and effects were separated by ANOVA.
 
-**Findings.** The best condition — annealing printhead at 1200 mm/min with 7.5 mm spacing — held the
-interface above the glass transition for **16.4 s**, raising bonding potential to **387.31 °C·s, roughly
-83× the conventional printhead**. That longer welding window cut void fraction from **14.55% to 5.52%**
-and shifted fracture from smooth, interface-dominated separation to cohesive tearing and fibrillation.
-Mechanically it produced **+68% z-direction toughness** (53.41 → 90.04 MPa), **+65% maximum stress**, and
-**+59% elongation at break**. ANOVA identified a significant printhead–speed interaction and a main
-effect of spacing, showing that both deposition kinematics and part layout govern how effective
-annealing is during batch printing.
+**Findings.** The best condition, an annealing printhead at 1200 mm/min with 7.5 mm spacing, held the
+interface above the glass transition for **16.4 s**. Bonding potential reached **387.31 °C·s, roughly 83
+times the conventional printhead**. Void fraction fell from **14.55% to 5.52%**, and fracture moved from
+smooth interface-dominated separation to cohesive tearing and fibrillation. Toughness rose **68%**
+(53.41 to 90.04 MPa), maximum stress **65%**, and elongation at break **59%**. ANOVA found a significant
+printhead-speed interaction and a main effect of spacing, so both deposition kinematics and part layout
+govern how well annealing works in batch printing.
 
 {% include figure.liquid path="assets/img/research/jmp-fig2.jpg" alt="Graphical abstract in four panels: process window, thermal mechanism, structure and failure, and mechanical response" caption="From process window to mechanical response: the factorial design, the thermal mechanism, the resulting void and fracture structure, and the measured gains." zoomable=true %}
 
-**Status.** Published — [DOI: 10.1016/j.jmapro.2026.05.005](https://doi.org/10.1016/j.jmapro.2026.05.005)
+**Status.** Published. [DOI: 10.1016/j.jmapro.2026.05.005](https://doi.org/10.1016/j.jmapro.2026.05.005)
 
 ---
 
@@ -110,11 +109,11 @@ Under review.
 
 ---
 
-## In-situ annealing of vertically printed short-carbon-fiber ABS: a process–structure–property study of bonding potential, voids, and z-direction performance
+## In-situ annealing of vertically printed short-carbon-fiber ABS: a process-structure-property study of bonding potential, voids, and z-direction performance
 
 **Shanto, T. A.**, Rahman, M. M., Barua, S., Ahmed, S., Raiyan, A. Z., Ahmed, R., Jain, A., Adnan, A., & Taylor, R. M.
 
-**Methodology.** A process–structure–property investigation of in-situ annealing applied to vertically
+**Methodology.** A process-structure-property investigation of in-situ annealing applied to vertically
 printed short-carbon-fiber ABS. An annealing plate re-heats each deposited layer, sustaining time above
 the glass transition temperature and raising bonding potential. X-ray μ-CT quantified internal void
 content across tensile, fracture, and DMA specimen geometries, and SEM fractography identified the
@@ -122,13 +121,12 @@ failure mode.
 
 {% include figure.liquid path="assets/img/research/compb-fig1.jpg" alt="Three-panel process-structure-property summary: in-situ thermal annealing schematic, micro-CT void content for standard versus modified specimens, and z-direction property gains with SEM fracture surfaces" caption="Process, structure, and property: the annealing plate raises bonding potential, μ-CT shows the voids closing, and z-direction performance rises as fracture turns cohesive." zoomable=true %}
 
-**Findings.** Void content fell across every geometry measured — **4.00% to 0.70%** in tensile specimens,
-1.49% to 0.60% in fracture specimens, and 5.612% to 3.592% in DMA specimens. The mechanical consequence
-in the z-direction was **tensile strength 16.5 → 22.9 MPa (+39%)**, **glassy storage modulus
-0.75 → 1.23 GPa (+63%)**, and **Mode-I fracture toughness 1.20 → 2.29 MPa√m (+92%)**, alongside a 30%
-gain in elastic modulus. SEM showed the failure mode shifting from **interfacial to cohesive**: fiber
-pull-out, debonding, and matrix tearing absorb the additional energy rather than the weld line simply
-letting go.
+**Findings.** Void content fell in every geometry measured: **4.00% to 0.70%** in tensile specimens,
+1.49% to 0.60% in fracture specimens, 5.612% to 3.592% in DMA specimens. In the z-direction, tensile
+strength rose from **16.5 to 22.9 MPa (39%)**, glassy storage modulus from **0.75 to 1.23 GPa (63%)**,
+and Mode-I fracture toughness from **1.20 to 2.29 MPa√m (92%)**, with a 30% gain in elastic modulus. SEM
+showed failure shifting from **interfacial to cohesive**, with fiber pull-out, debonding, and matrix
+tearing absorbing the extra energy instead of the weld line releasing.
 
 **Status.** Submitted to _Composites Part B: Engineering_.
 
@@ -139,7 +137,7 @@ letting go.
 **Shanto, T. A.**, Ahmed, R., Patel, P., Barua, S., Dola, I. S., Chen, V., Jain, A., & Taylor, R. M.
 
 **Methodology.** A coaxial heated plate positioned behind the nozzle gives **independent control of
-annealing plate temperature (APT) and annealing plate height (APH)** — the step beyond a fixed thermal
+annealing plate temperature (APT) and annealing plate height (APH)**, moving past a fixed thermal
 setting. Infrared thermography captured interfacial thermal history during vertical printing, tracking
 welding time against a glass transition of 104.59 °C. X-ray μ-CT quantified void fraction, SEM examined
 fracture surfaces, and tensile and DMA coupons measured the mechanical response. A thin-walled UAV
@@ -178,17 +176,17 @@ thickness.
 
 On the numerical side, a **representative volume element** supplies homogenised solid properties, and
 cohesive surfaces carry the interlayer damage. DCB and SENB finite element models are then calibrated
-against the measured load–displacement records.
+against the measured load-displacement records.
 
 {% include figure.liquid path="assets/img/research/fracture-fig3.jpg" alt="Cohesive surface and solid material models, representative volume element, DCB and SENB finite element models, and a table of calibrated cohesive-zone parameters for standard and in-situ-annealed material" caption="Calibrated cohesive-zone parameters for standard and in-situ-annealed material, alongside the RVE and the DCB and SENB models they feed." zoomable=true %}
 
 **Findings so far.** Calibration separates two effects that a single toughness number would conflate.
-The annealed material is stiffer — **elastic modulus 1045 → 1485 MPa** — and absorbs far more energy
-before the crack runs, with **Mode-I fracture energy 3.63 → 6.45 N/mm**. Yet its **normal cohesive
-strength falls, 36.19 → 29.44 MPa**: the interface does not simply become stronger, it becomes more
-willing to deform before releasing. That trade is what produces the measured gains of **84.3%** in DCB
-conditional upper resistance and **96.2%** in SENB total work while arm stiffness stays unchanged,
-confirming the treatment acts on the interlayer damage process rather than on bulk elasticity.
+The annealed material is stiffer, with **elastic modulus rising from 1045 to 1485 MPa**, and absorbs
+far more energy before the crack runs, with **Mode-I fracture energy rising from 3.63 to 6.45 N/mm**.
+Its **normal cohesive strength falls, 36.19 to 29.44 MPa**. The interface does not simply become
+stronger; it deforms more before releasing. That trade produces the measured gains of **84.3%** in DCB
+conditional resistance and **96.2%** in SENB total work while arm stiffness stays unchanged, confirming
+the treatment acts on the interlayer damage process rather than bulk elasticity.
 
 A practical consequence worth stating plainly: most annealed specimens failed the linearity requirement
 that every standard specimen satisfied. Improved damage tolerance and reduced linear-elastic testability

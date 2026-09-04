@@ -10,8 +10,8 @@ toc:
 ---
 
 Ninety thousand dollars in competitive awards across federal research commercialization, university
-venture competitions, and scholarships — most of it tied to moving additive manufacturing research out
-of the laboratory and toward a product.
+venture competitions, and scholarships. Most of it went to moving additive manufacturing research out of
+the laboratory and toward a product.
 
 ---
 
@@ -26,8 +26,8 @@ Awarded for **_High-Performance 3D-Printed Plastic Parts Through Novel Process E
 The I-Corps programme funds customer discovery rather than laboratory work: the team conducts structured
 interviews with potential customers to test whether a technology solves a problem someone will actually
 pay for. For this project it meant taking the in-situ annealing printhead out of the university and
-validating where improved z-direction strength genuinely changes a buying decision — then translating
-that evidence into product requirements and qualification criteria.
+validating where improved z-direction strength changes a buying decision, then turning that evidence
+into product requirements and qualification criteria.
 
 Directly informed the commercialization roadmap at
 [Increscent, Inc.]({{ '/research/industry/' | relative_url }}).
@@ -40,9 +40,8 @@ Directly informed the commercialization roadmap at
 
 {% include figure.liquid path="assets/img/awards/awards-overview.jpg" alt="Two Maverick Business Pitch Competition cheque presentations, for $10,000 and $25,000, awarded for Outstanding Business Pitch under the Maverick Entrepreneurship Program" caption="Two Outstanding Business Pitch awards under the Maverick Entrepreneurship Program: $10,000 and $25,000." zoomable=true %}
 
-Won across two Outstanding Business Pitch awards — **$10,000 and $25,000** — under the Maverick
-Entrepreneurship Program, judged on technical innovation, commercialization strategy, and business
-presentation: whether a defensible technology could be paired with a credible route to market.
+Two Outstanding Business Pitch awards, **$10,000 and $25,000**, under the Maverick Entrepreneurship
+Program. Judged on technical innovation, commercialization strategy, and presentation.
 
 ---
 
@@ -63,9 +62,7 @@ Awarded in support of graduate study in mechanical engineering.
 {% include figure.liquid path="assets/img/awards/cert-iengage.jpg" alt="University of Texas at Arlington I-ENGAGE Mentoring Program certificate awarded to Tanvir Ahmed Shanto in cooperation with the Graduate School, dated 9 August 2023" caption="I-ENGAGE Mentoring Program, in cooperation with the UTA Graduate School." zoomable=true %}
 
 Selected to mentor undergraduate researchers in technical concepts, research methods, and
-problem-solving — guiding students through the transition from coursework to open-ended research
-questions. Complements teaching assistant work across
-[six mechanical engineering courses]({{ '/teaching/' | relative_url }}).
+problem-solving, guiding them through the shift from coursework to open-ended research.
 
 ---
 
@@ -81,5 +78,5 @@ Early-stage campus award supporting the venture that became Increscent, Inc.
 
 ## Patents and recognition
 
-Beyond funded awards, the underlying research produced one granted and one pending U.S. patent —
-see the [patents page]({{ '/research/patents/' | relative_url }}).
+The underlying research also produced one granted and one pending U.S. patent. See the
+[patents page]({{ '/research/patents/' | relative_url }}).

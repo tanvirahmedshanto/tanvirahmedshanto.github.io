@@ -24,7 +24,6 @@ Water is usually where the day ends: a river to cross, a pool to sit in, a water
 <div class="photo-grid">
 {% include figure.liquid path="assets/img/personal/river-rock.jpg" alt="Sitting cross-legged on a boulder mid-river, cliff face and greenery rising behind" caption="A boulder mid-river." zoomable=true %}
 {% include figure.liquid path="assets/img/personal/waterfall.jpg" alt="Sitting on wet rock beneath a waterfall running down a dark rock face" caption="Under the falls." zoomable=true %}
-{% include figure.liquid path="assets/img/personal/river-bank.jpg" alt="Standing on the bank of a rocky river, forested slopes behind" caption="River bank at the bottom of the descent." zoomable=true %}
 </div>
 
 ## Novels, films, and television

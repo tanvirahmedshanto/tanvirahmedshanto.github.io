@@ -28,6 +28,4 @@ Water is usually where the day ends: a river to cross, a pool to sit in, a water
 
 ## Novels, films, and television
 
-I read novels constantly and watch films and series with the same appetite. Nothing to optimise, no
-parameter to tune, no result to validate. Someone else's world, built carefully, that you agree to live
-inside for a while.
+In my leisure time, I read novels and watch films and series.

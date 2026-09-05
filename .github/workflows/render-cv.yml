@@ -1,14 +1,8 @@
 name: Render a CV
+# Manual only. This renders a PDF CV from _data/cv.yml via RenderCV, but the
+# CV published on the site is Tanvir's own document in assets/pdf/. Left on
+# push it fired on every cv.yml edit and failed, as it did on the first commit.
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "_data/cv.yml"
-      - "assets/rendercv/design.yaml"
-      - "assets/rendercv/locale.yaml"
-      - "assets/rendercv/settings.yaml"
   workflow_call:
   workflow_dispatch:
 permissions:

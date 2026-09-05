@@ -113,7 +113,7 @@ max_width: 1140px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
-og_image: assets/img/prof_pic.jpg # The site-wide (default for all links) Open Graph preview image
+og_image: /assets/img/prof_pic.jpg # The site-wide (default for all links) Open Graph preview image. Needs the leading slash: the theme joins site.url and this value directly, so without it the URL comes out as github.ioassets/img/...
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -227,12 +227,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
-  - lighthouse_results/
   - package.json
   - package-lock.json
   - purgecss.config.js
   - README.md
-  - readme_preview/
   - gems/
   - migrations/
   - vendor
@@ -676,20 +674,5 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
-
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+# The CV page renders from _data/cv.yml (cv_format: rendercv), so the
+# JSONResume path is unused and assets/json/resume.json has been removed.

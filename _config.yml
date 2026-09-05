@@ -214,7 +214,11 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages"]
+# .nojekyll is listed so Jekyll copies it into _site. Jekyll skips dotfiles by
+# default, and keep_files below only preserves a file already in the
+# destination, it does not create one. Without it on gh-pages, GitHub Pages runs
+# its own Jekyll pass over output this site has already built.
+include: ["_pages", ".nojekyll"]
 exclude:
   - AGENTS.md
   - al-folio-upgrade-report.md

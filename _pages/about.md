@@ -33,6 +33,8 @@ latest_posts:
 
 Mechanical engineer, PhD. I build hardware that fixes the oldest problem in 3D printing: printed parts are weak in the direction they're built.
 
+{% include figure.liquid path="assets/img/research/printhead-render.jpg" alt="Visualization of the adaptive annealing printhead mounted on a desktop FFF printer, with the heated annealing plate reheating the part as it is built" caption="Visualization of the adaptive annealing printhead: the heated plate below the nozzle reheats each layer as it is deposited." zoomable=true %}
+
 My doctoral work produced a printhead that anneals each layer as it is deposited, rather than baking the finished part in an oven and distorting it. Across four studies it raised interlayer toughness by up to 68%, tensile strength by 39%, and Mode-I fracture resistance by 92%. It also cut the scatter in fracture toughness by half, which matters more than the averages for anything that has to be qualified. The design is covered by an issued and a pending US patent.
 
 I'm co-founder and technical lead at Increscent, Inc., where we're commercializing it with support from a $50,000 NSF I-Corps award.

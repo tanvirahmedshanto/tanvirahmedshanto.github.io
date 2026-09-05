@@ -17,6 +17,8 @@ toc:
 ## In-situ annealing and thermal-morphological evolution during extrusion-based additive manufacturing
 {:data-toc-text="In-situ annealing, ABS"}
 
+<span class="status published">Published</span>
+
 **Shanto, T. A.**, Ahmed, R., Patel, P., Zulqernine, M. J., Chen, V., Jain, A., & Taylor, R. M.
 _Journal of Manufacturing Processes_, **170**, 303–318 (2026).
 
@@ -38,12 +40,14 @@ govern how well annealing works in batch printing.
 
 {% include figure.liquid path="assets/img/research/jmp-fig2.jpg" alt="Graphical abstract in four panels: process window, thermal mechanism, structure and failure, and mechanical response" caption="From process window to mechanical response: the factorial design, the thermal mechanism, the resulting void and fracture structure, and the measured gains." zoomable=true %}
 
-**Status.** Published. [DOI: 10.1016/j.jmapro.2026.05.005](https://doi.org/10.1016/j.jmapro.2026.05.005)
+[DOI: 10.1016/j.jmapro.2026.05.005](https://doi.org/10.1016/j.jmapro.2026.05.005)
 
 ---
 
 ## Evaluation of in-process heating for extrusion printing of tall thin-walled structures
 {:data-toc-text="In-process heating, thin walls"}
+
+<span class="status published">Published</span>
 
 Patel, P., Rahman, M. M., **Shanto, T. A.**, Ahmed, R., Kulkarni, P., Chen, V. C. P., Jain, A., & Taylor, R. M.
 _Progress in Additive Manufacturing_ (2026).
@@ -60,6 +64,8 @@ PLA. The best condition reached 51.10 MPa bending strength, a 25% gain, with def
 ## Experimental characterization of enhanced fused filament fabrication (FFF) of tall thin-walled structures using polylactic acid (PLA)
 {:data-toc-text="Enhanced FFF, PLA"}
 
+<span class="status published">Published</span>
+
 Patel, P., Ahmed, R., **Shanto, T. A.**, Jain, A., & Taylor, R. M.
 _The International Journal of Advanced Manufacturing Technology_, **139**(11–12), 5663–5675 (2025).
 
@@ -74,6 +80,8 @@ than doubled while geometric accuracy and surface finish were maintained or impr
 ## A review of design and fabrication strategies for thermoplastic lightweight thin-walled stiffened shells and lattice structures utilizing fused-filament fabrication (FFF)
 {:data-toc-text="Lightweight structures review"}
 
+<span class="status published">Published</span>
+
 Ahmed, R., Dola, I. S., Ahmed, S., Rahman, M. M., **Shanto, T. A.**, & Taylor, R. M.
 _The International Journal of Advanced Manufacturing Technology_ (2026).
 
@@ -87,6 +95,8 @@ AI-driven process control and digital twins as the next directions.
 
 ## Study the performance of a dynamic wall heat exchanger using computational fluid dynamics
 {:data-toc-text="Dynamic wall heat exchanger"}
+
+<span class="status published">Published</span>
 
 Uddin, M. M., Akhtaruzzaman, R., **Shanto, T. A.**, & Hasan, M. N.
 _European Journal of Engineering and Technology Research_, **8**(3), 38–42 (2023).
@@ -104,6 +114,8 @@ was achieved even at minimal applied pressure.
 ## Effects of in-process annealing and programmed interlayer cooling on the tensile performance and interlayer morphology of PLA fabricated by FFF
 {:data-toc-text="Interlayer cooling, PLA"}
 
+<span class="status review">Under review</span>
+
 Ahmed, R., **Shanto, T. A.**, Raiyan, A. Z., Ahmed, S., Barua, S., Chen, V. C. P., Jain, A., Adnan, A., & Taylor, R. M.
 
 The enhanced printhead evaluated with and without a programmed interlayer cooling pause against a
@@ -111,12 +123,12 @@ standard printhead, on z-printed PLA. Cooling at 0.46 mm offset reached 53.4 MPa
 at 0.885% porosity, by cycling the weld between the glass transition and cold-crystallization
 temperatures to sustain chain mobility without letting crystallization arrest healing.
 
-Under review.
-
 ---
 
 ## In-situ annealing of vertically printed short-carbon-fiber ABS: a process-structure-property study of bonding potential, voids, and z-direction performance
 {:data-toc-text="In-situ annealing, ABS-CF"}
+
+<span class="status review">Under review</span>
 
 **Shanto, T. A.**, Rahman, M. M., Barua, S., Ahmed, S., Raiyan, A. Z., Ahmed, R., Jain, A., Adnan, A., & Taylor, R. M.
 
@@ -135,12 +147,14 @@ and Mode-I fracture toughness from **1.20 to 2.29 MPa√m (92%)**, with a 30% ga
 showed failure shifting from **interfacial to cohesive**, with fiber pull-out, debonding, and matrix
 tearing absorbing the extra energy instead of the weld line releasing.
 
-**Status.** Submitted to _Composites Part B: Engineering_.
+Submitted to _Composites Part B: Engineering_.
 
 ---
 
 ## Controlling interlayer bond strength in fused filament fabrication through adaptive in-situ annealing
 {:data-toc-text="Adaptive annealing"}
+
+<span class="status review">Under review</span>
 
 **Shanto, T. A.**, Ahmed, R., Patel, P., Barua, S., Dola, I. S., Chen, V., Jain, A., & Taylor, R. M.
 
@@ -162,7 +176,7 @@ across the full strain range, giving **modulus +65%**, **ultimate tensile streng
 bulk-controlled failure. The thin-wall case study gained **55% in flexural strength** with improved
 cross-sectional accuracy, at a modest cost in build height.
 
-**Status.** Under review at _Additive Manufacturing_.
+Under review at _Additive Manufacturing_.
 
 ---
 
@@ -170,6 +184,8 @@ cross-sectional accuracy, at a modest cost in build height.
 
 ## Experimental and multiscale numerical investigation of interlayer fracture in standard and in-situ-annealed FFF structures
 {:data-toc-text="Interlayer fracture"}
+
+<span class="status ongoing">Ongoing</span>
 
 **Shanto, T. A.**, Ahmed, S., Labanya, F. N., Lin, S., & Taylor, R. M.
 
@@ -201,12 +217,12 @@ A practical consequence worth stating plainly: most annealed specimens failed th
 that every standard specimen satisfied. Improved damage tolerance and reduced linear-elastic testability
 arrive together.
 
-**Status.** Ongoing.
-
 ---
 
 ## Improving the sealing capacity of FFF ducts for aerospace environmental-control-system applications
 {:data-toc-text="FFF duct sealing"}
+
+<span class="status ongoing">Ongoing</span>
 
 Rahman, M. M., **Shanto, T. A.**, Ahmed, R., & Taylor, R. M.
 
@@ -217,6 +233,8 @@ Manuscript in preparation.
 ## Improving the mechanical performance of lightweight PLA for unmanned aerial vehicles
 {:data-toc-text="Lightweight PLA, UAV"}
 
+<span class="status ongoing">Ongoing</span>
+
 Ahmed, S., **Shanto, T. A.**, Ahmed, R., & Taylor, R. M.
 
 Ongoing research.
@@ -225,6 +243,8 @@ Ongoing research.
 
 ## Improving the compressive strength of thin-walled stiffened cylindrical structures and characterizing damage using acoustic-emission sensing
 {:data-toc-text="Stiffened cylinders"}
+
+<span class="status ongoing">Ongoing</span>
 
 Ahmed, R., Zulqernine, M. J., **Shanto, T. A.**, Lin, S., & Taylor, R. M.
 

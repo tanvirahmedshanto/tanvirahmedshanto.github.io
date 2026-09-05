@@ -1,0 +1,111 @@
+---
+# Local override of al_folio_core's assets/css/main.scss.
+# It mirrors the gem's imports exactly, then appends the accent-colour tokens
+# below. Overriding this one short file avoids copying _themes.scss or
+# _variables.scss wholesale, which would have to be re-synced on every gem
+# release. After a dependency bump, run:
+#   bundle exec al-folio upgrade overrides diff assets/css/main.scss
+---
+
+@charset "utf-8";
+
+/* Built-in Sass modules you’ll likely use across partials */
+@use "sass:math";
+@use "sass:string";
+
+/* Configure your design tokens BEFORE loading any of your partials.
+   Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default:  "930px" }}
+);
+
+/* Your project partials — convert these files to `@use "variables";`
+   (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
+@use "themes";
+@use "layout";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+/*******************************************************************************
+ * Accent colour
+ *
+ * The stock theme ships purple in light mode and cyan in dark. These override
+ * only the accent tokens, so every other theme value still comes from the gem.
+ * The dark value is lifted well above the light one because #0f6e6e does not
+ * carry enough contrast against the dark background.
+ ******************************************************************************/
+
+:root {
+  --global-theme-color: #0f6e6e;
+  --global-hover-color: #0f6e6e;
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #4cc5c5;
+  --global-hover-color: #4cc5c5;
+}
+
+/*******************************************************************************
+ * Status badges
+ *
+ * Publication status is the thing a reader scans for first, so it is set as a
+ * badge beside the title rather than as a line of prose further down.
+ ******************************************************************************/
+
+.status {
+  display: inline-block;
+  padding: 0.12em 0.6em;
+  border-radius: 0.65em;
+  font-size: 0.62em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  white-space: nowrap;
+  border: 1px solid transparent;
+
+  &.published {
+    background: var(--global-theme-color);
+    color: #fff;
+  }
+
+  &.review {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+    background: transparent;
+  }
+
+  &.ongoing {
+    border-color: var(--global-text-color-light);
+    color: var(--global-text-color-light);
+    background: transparent;
+  }
+}
+
+/* Photo grids: half-width figures sit side by side above the small breakpoint,
+   and stack below it. Only used for photographs, never for dense figures. */
+.photo-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  figure {
+    margin: 0;
+  }
+}

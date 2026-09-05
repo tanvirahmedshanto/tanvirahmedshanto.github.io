@@ -1,10 +1,10 @@
 name: Update Google Scholar Citations
 
+# Manual only. This wrote _data/citations.yml, which was the template's Albert
+# Einstein citation data and is now deleted; no page reads it since the
+# publications page was removed in favour of /research/. On its schedule it kept
+# committing the file back to main, which is what made the branch diverge.
 on:
-  schedule:
-    - cron: "0 0 * * 1" # Monday
-    - cron: "0 0 * * 3" # Wednesday
-    - cron: "0 0 * * 5" # Friday
   workflow_dispatch:
 
 jobs:

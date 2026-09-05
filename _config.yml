@@ -18,7 +18,7 @@ footer_text: >
 keywords: Tanvir Ahmed Shanto, mechanical engineer, manufacturing engineer, additive manufacturing, finite element analysis, multiscale modeling, non-linear FEA, process innovation, thermal characterization, mechanical testing, design of experiments, polymer characterization, prototyping, R&D engineer # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
+apple_touch_icon: apple-touch-icon.png # 180x180 PNG in /assets/img/ for iOS home-screen bookmarks. Safari ignores the emoji favicon above, and with this empty iOS falls back to a screenshot of the page.
 
 url: https://tanvirahmedshanto.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -113,7 +113,7 @@ max_width: 1140px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
-og_image: /assets/img/prof_pic.jpg # The site-wide (default for all links) Open Graph preview image. Needs the leading slash: the theme joins site.url and this value directly, so without it the URL comes out as github.ioassets/img/...
+og_image: /assets/img/og-preview.jpg # Site-wide link preview, cropped to the 1200x630 Open Graph ratio so platforms do not centre-crop it themselves. Needs the leading slash: the theme joins site.url and this value directly, so without it the URL comes out as github.ioassets/img/...
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

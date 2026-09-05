@@ -1,7 +1,7 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-# cv_pdf: /assets/pdf/Tanvir_Ahmed_Shanto_CV.pdf # re-enable once the redacted PDF is in assets/pdf/
+cv_pdf: /assets/pdf/Tanvir_Ahmed_Shanto_CV.pdf
 email: tanvirahmedshanto225@gmail.com # your email address
 linkedin_username: tanvir-ahmed-shanto
 rss_icon: true # comment this line to hide the RSS icon

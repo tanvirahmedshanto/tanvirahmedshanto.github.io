@@ -154,7 +154,9 @@ cv:
         icon: fa-solid fa-lightbulb
         keywords: "Multiscale modeling, experiment-to-model calibration and validation, coupled thermal-mechanical behavior, uncertainty quantification, Bayesian calibration, data-driven surrogate modeling, fracture and damage mechanics, additive manufacturing"
 
-    Professional Membership:
+    Professional Service and Membership:
+      - label: Reviewer, Journal of Thermal Analysis and Calorimetry (Springer Nature)
+        details: 2026, one manuscript
       - label: American Society of Mechanical Engineers (ASME)
         details: Member
 
